@@ -1,0 +1,7 @@
+{
+  "name": "career-ops-plugin-local",
+  "owner": { "name": "Andrew Shwetzer" },
+  "plugins": [
+    { "name": "career-ops", "source": "./" }
+  ]
+}
