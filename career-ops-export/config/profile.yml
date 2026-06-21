@@ -1,0 +1,50 @@
+candidate:
+  full_name: "Armaan Agarwal"
+  email: "armaan.ag@gmail.com"
+  phone: "+91 77100 47270"
+  location: "Mumbai, India"
+  linkedin: "linkedin.com/in/armaan-agarwal-21070584"
+
+target_roles:
+  primary:
+    - "Principal AI Strategist"
+    - "AI Strategist (forward-deployed, financial services)"
+  archetypes:
+    - name: "Forward-Deployed AI Strategist / Solutions"
+      level: "Principal/Senior"
+      fit: "primary"
+    - name: "Head of AI Transformation / AI Adoption Lead"
+      level: "Senior/Head"
+      fit: "primary"
+    - name: "AI Product Lead (vertical fintech/PE platform)"
+      level: "Senior"
+      fit: "secondary"
+    - name: "AI Vendor Partnerships / GTM (AI-for-finance vendor)"
+      level: "Senior"
+      fit: "secondary"
+
+narrative:
+  headline: "AI strategist and PE/Secondaries domain expert who scaled an enterprise AI platform inside institutional finance"
+  exit_story: "~10 years and $2.5bn+ executed as a PE/secondaries investment professional at TresVista. Spent the last ~18 months founding and running the firm's AI transformation function end-to-end — vendor evaluation, product, GTM, and firm-wide enablement for 1,800+ employees."
+  superpowers:
+    - "Deep PE/secondaries domain expertise paired with hands-on AI vendor evaluation and product shaping"
+    - "Took ModelML from initial onboarding to scaled strategic partnership, shaping its product roadmap and building custom AI agents on-site at ModelML's London office"
+    - "Built an AI-enablement curriculum and adoption framework from scratch, rolled out across 1,800+ employees"
+    - "Owns product requirements for Descrial (multi-tenant AI/LLM-enabled PE workflow platform)"
+    - "P&L and team leadership at scale — heads a ~250-person unit with 100+ institutional mandates worth $15M+"
+
+compensation:
+  target_range: "$180K+"
+  currency: "USD"
+  minimum: "$180K"
+  location_flexibility: "Open to onsite roles in NYC or London"
+
+location:
+  country: "India"
+  city: "Mumbai"
+  timezone: "IST"
+  visa_status: "Would require sponsorship/relocation for NYC or London onsite roles"
+  onsite_availability: "Open to relocating to NYC or London for the right role"
+
+cv:
+  output_format: "html"
