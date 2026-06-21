@@ -453,11 +453,16 @@ search_queries:
 
 tracked_companies:
 
-  # -- Active target (Hebbia only, per user request) --
+  # -- Active targets (Hebbia + comps, per user request) --
 
   - name: Hebbia
     careers_url: https://jobs.ashbyhq.com/hebbia-ai
     notes: "AI platform for finance. Target: AI Strategist roles."
+    enabled: true
+
+  - name: ModelML
+    careers_url: https://www.modelml.com/careers
+    notes: "AI-for-finance vendor candidate already partnered with at TresVista (ModelML onboarding/product roadmap). GTM Lead, Product Manager, Engagement Manager roles overlap with AI Strategist profile."
     enabled: true
 
   # -- AI Labs & LLM providers --
