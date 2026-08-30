@@ -1,41 +1,48 @@
 # Armaan Agarwal
 
-Mumbai, India | armaan.ag@gmail.com | +91 77100 47270 | linkedin.com/in/armaan-agarwal-21070584
+Mumbai, India (open to relocation) | armaan.ag@gmail.com | +91 77100 47270 | linkedin.com/in/armaanagarwal1995
 
 ## Summary
 
-AI product builder and Private Equity/Secondaries domain expert. ~10 years at TresVista Financial Services, $2.5bn+ executed as an investment professional, the last ~18 months spent founding and running TresVista's AI transformation function, building and shipping custom AI agents, and owning product for an AI-enabled PE workflow platform.
+AI product leader for institutional finance, with 10+ years of domain expertise executing $2.5B+ in Secondaries, Primaries and Direct/Co-invest transactions. Pairs institutional depth with hands-on execution to build, ship, and drive firm-wide adoption of generative AI and agentic workflows.
 
-Track record spans institutional deal execution, sovereign and infrastructure investment platforms, AI vendor partnership and product strategy, and firm-wide AI adoption — with direct, hands-on experience evaluating and scaling AI tools built specifically for institutional finance.
+Track record spans institutional deal execution, sovereign and infrastructure investment platforms, AI vendor partnership and product strategy, and firm-wide AI adoption — with direct, hands-on experience evaluating, building, and scaling AI tools built specifically for institutional finance.
 
 ## Core Competencies
 
-AI Strategy & Enterprise Adoption · Private Equity & Secondaries Investing · Institutional Relationship Management · Product Ownership & Platform Strategy · AI Vendor Partnership & GTM · P&L & Team Leadership · Deal Execution & IC Strategy · GP/LP Fund Structuring · Cross-Functional Program Building
+AI Strategy & Enterprise Adoption · Agentic & Generative AI Product Development · Private Equity & Secondaries Investing · Institutional Relationship Management · Product Ownership & Platform Strategy · AI Vendor Partnership & GTM · P&L & Team Leadership · Deal Execution & IC Strategy · GP/LP Fund Structuring · Cross-Functional Program Building
 
 ## Career Highlights
 
-- $2.5bn+ executed across 100+ PE primary, secondary, direct, and co-investment transactions over ~10 years
-- Embedded across the investment platform of a sovereign investor that scaled into a $115B+ AUM alternative investment manager — directed $6.5bn+ in committed capital across 26 transactions in ~15 months
+- Led the build of custom AI agents for **8 of the top 20 global Secondaries firms**, enabling 1.5–2x more deal reviews monthly
+- Shipped a secondaries fund-modelling agent to 2 of the world's largest alternative managers — extracts 100+ LP KPIs at 89% field-level accuracy, cutting model build time 30–35% with auditable source traceability
+- Scaled ModelML (YC-backed financial services AI) from pilot to exclusive multi-year partnership, shaping GTM and a $20M+ ROI business case; built 13 human-in-the-loop agents onsite with their product team
+- $2.5B+ executed across 100+ PE primary, secondary, direct, and co-investment transactions over ~10 years
+- Embedded across the investment platform of an Abu Dhabi sovereign investor that scaled into a $115B+ AUM alternative investment manager — directed $6.5B+ in committed capital across 26 transactions in ~15 months
 - Founded and built TresVista's AI transformation function from scratch — 100+ tools evaluated, AI-enablement curriculum delivered to 1,800+ employees
-- Took ModelML from initial onboarding to a scaled strategic partnership, helping shape its product roadmap and building custom AI agents for institutional clients
 - Fast-tracked Analyst→VP in 5 years vs. the firm's 8-year standard track; later promoted to oversee 9 Delivery VPs and 250+ employees
-- Built the financial model for a $40M cosmeceuticals buy-and-build as sole analyst on the deal — returned 3x via IPO
+- Built the financial model for a $40M cosmeceuticals buy-and-build as sole analyst on the deal — exited at 3x MOIC via IPO
 
 ## Experience
 
 ### TresVista Financial Services — Mumbai, London, New York
 
-**Product Head, LP & Fund of Funds** (Jul 2025 – Present), concurrent **Founding Member, AI Transformation** (Jan 2025 – Present)
+*Global advisory and technology partner to 1,000+ institutional investors, 2,000+ experts across seven offices, now rebuilt around an AI-led operating model transformation. Joined at ~100 employees and scaled with the firm through ~10x revenue growth.*
 
-Heads the LP & Fund of Funds / Secondaries vertical — P&L, growth strategy, risk monitoring, and business development for a ~250-person unit, with 100+ institutional mandates worth $15M+, spanning relationships with leading global LPs, fund-of-funds, and secondaries investors across North America, Europe, the Middle East, and Asia, including BlackRock, StepStone, ICG, LGT Capital Partners, Partners Group, ADIC (Abu Dhabi Investment Council), Pantheon, Dawson Partners, and Azalea Asset Management, among others.
+**Product Head, LPs & Secondaries** (Jul 2025 – Present), concurrent **Founding Member, AI Transformation** (Jan 2025 – Present)
 
-Beyond the P&L, built and ran TresVista's AI function end-to-end:
-- **Subject Matter Expertise:** Evaluated, demoed, and piloted 100+ AI tools across the investment workflow, becoming the firm's internal authority on enterprise AI adoption in finance
-- **Learning & Development:** Designed and delivered the firm's AI-enablement curriculum and adoption framework, rolled out across 1,800+ employees
-- **Operations:** Owns the delivery model for AI tool rollout — sequencing, training, and embedding five AI tools into live workflows, including ModelML, Shortcut AI, Finsynth, Filot, and RapidCanvas
-- **Product:** Owns Secondaries-vertical configuration and product requirements for Descrial, TresVista's multi-tenant, AI/LLM-enabled PE workflow platform spanning Fund Origination to Exit (pre-launch) — partners directly with engineering to define and validate functionality
-- **Go-to-Market / Relationship Management:** Took ModelML from initial onboarding to a scaled strategic partnership, acting as a trusted advisor on PE/secondaries domain expertise that helped shape its product roadmap. Recently led the design and build of custom secondaries AI agents on-site at ModelML's London office for several leading global alternative asset managers
-- **Cross-functional build:** Partners with TresVista's newly formed Operational & Digital Excellence function on firm-wide process optimization and automation, from its earliest stage, ahead of formal stand-up
+Owns strategy, growth, and P&L across 75+ institutional mandates and a 250-person delivery unit — trusted advisor and stakeholder manager to CIOs, Heads of Secondaries, and Investment Committees across the UK, US, Europe, and the Middle East. Relationships span leading global LPs, fund-of-funds, and secondaries investors including BlackRock, StepStone, ICG, LGT Capital Partners, Partners Group, ADIC (Abu Dhabi Investment Council), Pantheon, Dawson Partners, and Azalea Asset Management.
+
+**AI Strategy & Enterprise Adoption (2024 – Present)**
+
+- **Agent development:** Led the build of custom AI agents for 8 of the top 20 global Secondaries firms, enabling 1.5–2x more deal reviews monthly
+- **Flagship product:** Shipped a secondaries fund-modelling agent to 2 of the world's largest alternative managers — extracts 100+ LP KPIs at 89% field-level accuracy, cutting model build time 30–35% with auditable source traceability
+- **Vendor partnership / GTM:** Scaled ModelML from pilot to exclusive multi-year partnership, shaping GTM and a $20M+ ROI business case; built 13 human-in-the-loop agents onsite with their product team in London
+- **Product ownership:** Owns the product roadmap and AI rollout for the Secondaries suite within Descrial, TresVista's LLM-based research and agentic workflow platform — deploying firm-wide across 150+ mandates in Q4 2026 against measurable KPIs
+- **Subject matter expertise:** Evaluated 100+ AI tools to identify high-impact use cases; architected the firm's AI adoption, governance, and output-validation playbook from scratch
+- **Enablement:** Designed and delivered the change management and AI-enablement curriculum rolled out across 1,800+ employees
+- **Operations:** Owns the delivery model for AI tool rollout — sequencing, training, and embedding tools into live workflows, including ModelML, Shortcut, RapidCanvas, Filot, and ToltIQ
+- **Cross-functional build:** Partners with TresVista's Operational & Digital Excellence function on firm-wide process optimization and automation, from its earliest stage
 
 **Executive Vice President** (Jul 2024 – Jun 2025)
 
@@ -47,11 +54,13 @@ Beyond the P&L, built and ran TresVista's AI function end-to-end:
 - Optimized usage of 30 databases (Bloomberg, FactSet, PitchBook, CapitalIQ) by implementing SOPs, KRAs, scheduling mechanisms, and usage trackers — $500K in annual cost savings
 - Expanded 12 institutional accounts, driving a 20% increase in portfolio value and $2M+ in incremental annual revenue (~18% of total revenue growth)
 - Consistently received the highest internal performance ratings; best-rated VP, 2 years running
-- Became a founding member of TresVista's AI transformation function in January 2025 — evaluated, demoed, and piloted AI tools across the investment workflow, began shaping the firm's AI narrative and strategy, and began co-developing the AI-enablement training curriculum and adoption framework with the L&D team. The ModelML partnership began in early 2025, with Armaan leading onboarding and contributing PE/secondaries domain expertise and institutional access that helped shape ModelML's product roadmap
+- Became a founding member of TresVista's AI transformation function in January 2025 — evaluated, demoed, and piloted AI tools across the investment workflow, began shaping the firm's AI narrative and strategy, and began co-developing the AI-enablement training curriculum and adoption framework with the L&D team
 
 **Vice President** (Jul 2021 – Jun 2024)
 
-Embedded across the investment platform — Portfolio Strategy, Direct Investments, and Funds Investment — of ADG (Abu Dhabi Growth Fund), a sovereign investment manager in Abu Dhabi, beginning in 2022. ADG, led by Khalifa Al Suwaidi ($35bn+ AUM), merged with ADQ and Chimera Investment in 2023 to form Lunate, today an independent global alternative investment firm with $115B+ AUM, ~200 staff including 90+ investment professionals, and 100+ transactions completed in its first two years — one of the fastest-scaling alternative platforms globally. Directed $6.5bn+ in committed capital across 26 transactions — fund re-ups, new manager commitments, SMAs, GP stakes, and relationship expansions — over ~15 months, spanning buyout, credit, venture, real assets, and multi-asset strategies across North America, Europe, Asia, and global mandates.
+Embedded across the investment platform — Portfolio Strategy, Direct Investments, and Funds Investment — of ADG (Abu Dhabi Growth Fund), a sovereign investment manager in Abu Dhabi, beginning in 2022. ADG, led by Khalifa Al Suwaidi ($35bn+ AUM), merged with ADQ and Chimera Investment in 2023 to form Lunate, today an independent global alternative investment firm with $115B+ AUM, ~200 staff including 90+ investment professionals, and 100+ transactions completed in its first two years — one of the fastest-scaling alternative platforms globally.
+
+Directed $6.5B+ in committed capital across 26 transactions in ~15 months — fund re-ups, new manager commitments, SMAs, GP stakes, and relationship expansions — spanning buyout, credit, venture, real assets, and multi-asset strategies across North America, Europe, Asia, and global mandates.
 
 Directed deal teams for:
 - **Apax Partners** — global PE firm, ~$80bn+ AUM, technology/healthcare/services/consumer
@@ -60,11 +69,9 @@ Directed deal teams for:
 - **Africa Finance Corporation** — Lagos-based pan-African infrastructure investor/DFI, $19B+ invested across 48 member countries
 - **Veritas Capital** — New York technology-focused PE firm, ~$50bn+ AUM, aerospace/defense, national security, healthcare, government technology
 
-Deal execution directed during this period:
-- $20M investment in an ODM/OEM manufacturer — 13.5x EBITDA entry multiple, benchmarked against Chinese comparables (e.g. Haier); partial exit via IPO, Jan '24
-- $25M buyout of a customer experience platform ($15M secondary / $10M primary) — thesis built on 150% dollar retention, 5x LTV/CAC, and attractive secondary-market exit prospects
-- Fund Commitments: $2B+ in primary and re-up commitments across global mandates, including a $500M mega-cap software fund (22.5% IRR) and $300M in a top-quartile healthcare buyout fund (11.1% IRR)
-- Venture & Growth: $450M+ in structured SMAs and fund investments with top-tier early-stage managers, including a $150M software-focused re-up and $100M to a high-performing VC/growth platform (20%+ IRR)
+Fund and structured commitments during this period:
+- **Fund commitments:** $2B+ in primary and re-up commitments across global mandates, including a $500M mega-cap software fund (22.5% IRR) and $300M in a top-quartile healthcare buyout fund (11.1% IRR)
+- **Venture & growth:** $450M+ in structured SMAs and fund investments with top-tier early-stage managers, including a $150M software-focused re-up and $100M to a high-performing VC/growth platform (20%+ IRR)
 
 Promoted to Vice President in Jul 2021 — Analyst→VP in 5 years versus the firm's standard 8-year track.
 
@@ -78,20 +85,29 @@ Promoted to Vice President in Jul 2021 — Analyst→VP in 5 years versus the fi
 
 - Ran deal evaluation, financial modeling, and portfolio analysis for AIR Asset Management, a Chicago-based, SEC-registered alternative investment manager founded 2014, specializing in longevity-linked strategies — life settlements, annuities, insurance-linked investments, private credit. AUM grew from ~$500M to $730M+ over the period.
 - Worked directly with a Partner (now at Alta Semper Capital) across every active transaction at the firm — a lean, partner-led team with no other junior investment staff. (Alta Semper Capital: London-headquartered frontier-markets PE firm founded 2015 by Afsane Jetha alongside Ronald Lauder and Richard Parsons (former CEO, Time Warner), investing in healthcare and consumer businesses across Africa.)
-- Built the financial model spanning 122 products across 7 therapeutic categories underpinning a $40M cosmeceuticals manufacturer buy-and-build, structured as an LBO with mezzanine debt — the investment returned 3x via IPO in Feb '22.
+
+## Selected Transactions
+
+- **$40M cosmeceuticals buy-and-build** (healthcare/consumer, Africa) — modeled 122 products across 7 therapeutic categories as sole analyst; structured an LBO with mezzanine debt; exited at 3x MOIC via IPO, Feb 2022
+- **$20M direct investment in an ODM/OEM manufacturer** (Asia) — defended a 13.5x EBITDA entry multiple against regional comparables (e.g. Haier); partial exit via IPO, Jan 2024
+- **$16M Series B in a health-data analytics suite** (US) — led the investment thesis and IC case around virtual trials, ERP, and device integration
+- **$25M investment in a customer-experience SaaS platform** ($15M secondary / $10M primary) — underwrote on 150% net dollar retention and 5x LTV:CAC, with attractive secondary-market exit prospects
 
 ## Education
 
 Narsee Monjee Institute of Management Studies, Mumbai, India — B.Com Honors, Jun 2013 – May 2016
 
-## Technical Skills
+## Skills
 
-No-code/AI product development (Lovable) · LLM/prompt engineering, vibe-coding · Financial modeling · Bloomberg, FactSet, CapitalIQ, PitchBook · CFA Level I
+- **AI build stack:** Design and build agentic and generative AI workflows — orchestration (LangGraph, Claude Agent SDK), retrieval pipelines (LlamaIndex), and evaluation harnesses (LangSmith, Langfuse); prototypes in Claude and Cursor
+- **AI-for-finance vendor depth:** 100+ tool evaluations; hands-on deployment across ModelML, Shortcut, RapidCanvas, Filot, and ToltIQ
+- **Investment toolkit:** Financial modeling (LBO, returns, valuation); Bloomberg, FactSet, CapitalIQ, PitchBook; CFA Level I
+- **Other:** No-code/AI product development (Lovable), LLM/prompt engineering
 
 ## Extracurricular
 
-- Shikshantar NGO — co-founder, addressing the educational needs of 60+ underprivileged children
-- Entrepreneurship Cell — launched the university's first incubation center (CIIE), now a non-profit funded by the Government of India
-- Confluence Investors — impact fund manager
-- MEER Foundation — non-profit empowering women
-- Interests: Football, Formula 1, NBA, gaming, social impact projects
+- **Shikshantar NGO** — co-founder; holistic education for 60+ underprivileged children, $40K in donations raised
+- **Entrepreneurship Cell** — launched the university's first and only incubation center (CIIE), now a non-profit backed by the Government of India
+- **Confluence Investors** — impact fund manager
+- **MEER Foundation** — non-profit empowering women
+- Interests: Football, Formula 1, FPL (3 top-1% finishes in 9 seasons), Chess (organized firm-wide annual tournaments), NBA, gaming
