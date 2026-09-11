@@ -15,6 +15,8 @@
 | 5 | Source appendix | [`05-memo/SOURCES.md`](05-memo/SOURCES.md) |
 | 5 | Verification log and stated limitations | [`05-memo/VERIFICATION.md`](05-memo/VERIFICATION.md) |
 
+Published memo page: https://claude.ai/code/artifact/e38f2719-68bd-45dd-8916-a33c27463893
+
 Original brief: [`00-setup/RESEARCH-PLAN.md`](00-setup/RESEARCH-PLAN.md). Video work out of scope.
 
 ## The three findings the pack turns on

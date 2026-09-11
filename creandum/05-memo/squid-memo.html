@@ -1,0 +1,383 @@
+<title>Squid Seed Memo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+/* Palette is keyed to UK network voltage-level drawing conventions:
+   400kV blue = primary, 132kV green = verified, 33kV amber = unverified, 11kV red = risk. */
+:root{
+  --paper:#f4f6f8; --surface:#ffffff; --sunk:#eceff3;
+  --ink:#141920; --body:#2b3440; --muted:#5f6b7a; --faint:#8b95a3;
+  --rule:#d8dee5; --rule-soft:#e6eaef;
+  --v400:#26568f; --v400-soft:#e4ecf6;
+  --v132:#2f7350; --v132-soft:#e3efe8;
+  --v33:#a85c12;  --v33-soft:#f7ecdd;
+  --v11:#a3363a;  --v11-soft:#f7e4e5;
+  --measure:68ch;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#0e1116; --surface:#161b22; --sunk:#12161c;
+    --ink:#e8ecf1; --body:#c3cbd5; --muted:#95a0ad; --faint:#6f7b89;
+    --rule:#262d37; --rule-soft:#1e242c;
+    --v400:#78a8e0; --v400-soft:#16243a;
+    --v132:#69bb90; --v132-soft:#12291e;
+    --v33:#d99f55;  --v33-soft:#2a2012;
+    --v11:#e08287;  --v11-soft:#2b1518;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#0e1116; --surface:#161b22; --sunk:#12161c;
+  --ink:#e8ecf1; --body:#c3cbd5; --muted:#95a0ad; --faint:#6f7b89;
+  --rule:#262d37; --rule-soft:#1e242c;
+  --v400:#78a8e0; --v400-soft:#16243a;
+  --v132:#69bb90; --v132-soft:#12291e;
+  --v33:#d99f55;  --v33-soft:#2a2012;
+  --v11:#e08287;  --v11-soft:#2b1518;
+}
+*{box-sizing:border-box}
+body{
+  background:var(--paper); color:var(--body);
+  font-family:"Source Serif 4",Georgia,"Times New Roman",serif;
+  font-size:17px; line-height:1.62;
+  margin:0; padding-inline:20px; padding-block:0;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:var(--measure); margin:0 auto; padding-block:0 88px}
+h1,h2,h3,.ui{font-family:Archivo,"Helvetica Neue",Arial,sans-serif}
+.ui{font-feature-settings:"tnum"}
+.mono{font-family:"IBM Plex Mono",ui-monospace,"SF Mono",Menlo,monospace; font-variant-numeric:tabular-nums}
+
+/* ---------- masthead ---------- */
+.mast{border-bottom:2px solid var(--ink); padding-block:40px 18px; margin-bottom:34px}
+.kicker{font-family:Archivo,sans-serif; font-size:11.5px; font-weight:600; letter-spacing:.16em;
+  text-transform:uppercase; color:var(--muted); margin:0 0 18px}
+h1{font-size:clamp(38px,8vw,58px); font-weight:700; letter-spacing:-.025em; line-height:1.02;
+  margin:0 0 6px; color:var(--ink); text-wrap:balance}
+.sub{font-size:19px; color:var(--muted); margin:0 0 26px; text-wrap:balance}
+.verdict{display:flex; flex-wrap:wrap; align-items:baseline; gap:10px 14px; margin-bottom:8px}
+.stamp{font-family:Archivo,sans-serif; font-weight:700; font-size:13px; letter-spacing:.1em;
+  text-transform:uppercase; color:var(--surface); background:var(--v400);
+  padding:7px 13px; border-radius:3px}
+.verdict .line{font-size:17px; color:var(--ink)}
+
+/* ---------- fact strip ---------- */
+.facts{display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:1px;
+  background:var(--rule); border:1px solid var(--rule); margin:30px 0 44px}
+.fact{background:var(--surface); padding:15px 16px}
+.fact dt{font-family:Archivo,sans-serif; font-size:10.5px; font-weight:600; letter-spacing:.13em;
+  text-transform:uppercase; color:var(--faint); margin:0 0 7px}
+.fact dd{margin:0; font-family:"IBM Plex Mono",monospace; font-variant-numeric:tabular-nums;
+  font-size:16px; font-weight:500; color:var(--ink); line-height:1.3}
+.fact dd small{display:block; font-family:"Source Serif 4",serif; font-size:13px;
+  font-weight:400; color:var(--muted); margin-top:4px; font-variant-numeric:normal}
+
+/* ---------- sections ---------- */
+section{margin-bottom:46px}
+h2{font-size:13px; font-weight:600; letter-spacing:.14em; text-transform:uppercase;
+  color:var(--v400); margin:0 0 4px; display:flex; align-items:baseline; gap:12px}
+h2 .num{font-family:"IBM Plex Mono",monospace; color:var(--faint); font-weight:500; font-size:12px}
+h2 + .lede{font-size:23px; line-height:1.36; color:var(--ink); font-weight:600;
+  margin:0 0 20px; text-wrap:balance; letter-spacing:-.012em}
+.rule{height:1px; background:var(--rule); border:0; margin:0 0 20px}
+p{margin:0 0 17px}
+p.last{margin-bottom:0}
+strong{color:var(--ink); font-weight:600}
+a{color:var(--v400); text-underline-offset:3px; text-decoration-thickness:1px}
+a:focus-visible,summary:focus-visible{outline:2px solid var(--v400); outline-offset:3px; border-radius:2px}
+
+/* ---------- numbered arguments ---------- */
+ol.args{list-style:none; margin:0 0 18px; padding:0; display:grid; gap:20px}
+ol.args > li{display:grid; grid-template-columns:30px 1fr; gap:14px; align-items:start}
+ol.args .mark{font-family:"IBM Plex Mono",monospace; font-size:12px; font-weight:600;
+  color:var(--v400); background:var(--v400-soft); border-radius:3px;
+  text-align:center; padding:3px 0; margin-top:4px}
+ol.args h3{font-family:"Source Serif 4",serif; font-size:17px; font-weight:600;
+  color:var(--ink); margin:0 0 5px; line-height:1.45}
+ol.args p{margin:0}
+
+/* ---------- tables ---------- */
+.scroll{overflow-x:auto; margin:0 0 10px; border-block:1px solid var(--rule)}
+table{width:100%; border-collapse:collapse; font-size:15px; min-width:420px}
+caption{caption-side:bottom; text-align:left; font-size:13px; color:var(--muted);
+  padding-top:9px; line-height:1.5}
+th{font-family:Archivo,sans-serif; font-size:10.5px; font-weight:600; letter-spacing:.11em;
+  text-transform:uppercase; color:var(--faint); text-align:left;
+  padding:10px 12px 10px 0; border-bottom:1px solid var(--rule); white-space:nowrap}
+td{padding:10px 12px 10px 0; border-bottom:1px solid var(--rule-soft); vertical-align:top}
+tbody tr:last-child td{border-bottom:0}
+td.n,th.n{text-align:right; padding-right:0; font-family:"IBM Plex Mono",monospace;
+  font-variant-numeric:tabular-nums; white-space:nowrap}
+tr.total td{border-top:2px solid var(--ink); border-bottom:0; font-weight:600; color:var(--ink)}
+
+/* ---------- status chips (voltage-keyed) ---------- */
+.chip{display:inline-block; font-family:"IBM Plex Mono",monospace; font-size:11px; font-weight:500;
+  padding:2px 7px; border-radius:3px; white-space:nowrap; letter-spacing:.01em}
+.ok{color:var(--v132); background:var(--v132-soft)}
+.warn{color:var(--v33); background:var(--v33-soft)}
+.bad{color:var(--v11); background:var(--v11-soft)}
+.neutral{color:var(--muted); background:var(--sunk)}
+
+/* ---------- key / legend ---------- */
+.key{display:flex; flex-wrap:wrap; gap:8px 18px; font-size:13px; color:var(--muted);
+  padding:13px 0; border-block:1px solid var(--rule-soft); margin-bottom:30px}
+.key b{font-family:Archivo,sans-serif; font-size:10.5px; letter-spacing:.13em;
+  text-transform:uppercase; color:var(--faint); font-weight:600}
+
+/* ---------- pull blocks ---------- */
+.registry{background:var(--surface); border:1px solid var(--rule);
+  border-left:3px solid var(--v400); padding:20px 22px; margin:0 0 18px}
+.registry h3{font-family:Archivo,sans-serif; font-size:11px; letter-spacing:.13em;
+  text-transform:uppercase; color:var(--v400); margin:0 0 12px; font-weight:600}
+.registry ul{margin:0; padding-left:18px; display:grid; gap:7px; font-size:15.5px}
+.registry .punch{margin:14px 0 0; padding-top:14px; border-top:1px solid var(--rule-soft);
+  font-size:16px; color:var(--ink)}
+
+.risk{border-left:3px solid var(--v11); padding:2px 0 2px 20px; margin:0 0 20px}
+.risk h3{font-family:Archivo,sans-serif; font-size:11px; letter-spacing:.13em;
+  text-transform:uppercase; color:var(--v11); margin:0 0 12px; font-weight:600}
+.risk ol{margin:0; padding-left:19px; display:grid; gap:11px; font-size:16px}
+
+blockquote{margin:0 0 18px; padding-left:20px; border-left:2px solid var(--rule);
+  font-style:italic; color:var(--muted); font-size:16px}
+blockquote cite{display:block; font-style:normal; font-size:13px; color:var(--faint);
+  margin-top:7px; font-family:Archivo,sans-serif; letter-spacing:.02em}
+
+/* ---------- funnel ---------- */
+.funnel{display:grid; grid-template-columns:repeat(auto-fit,minmax(112px,1fr)); gap:1px;
+  background:var(--rule); border:1px solid var(--rule); margin:0 0 12px}
+.step{background:var(--surface); padding:14px 14px 15px}
+.step .v{font-family:"IBM Plex Mono",monospace; font-size:25px; font-weight:600;
+  color:var(--ink); line-height:1; font-variant-numeric:tabular-nums}
+.step .l{font-family:Archivo,sans-serif; font-size:10.5px; letter-spacing:.11em;
+  text-transform:uppercase; color:var(--faint); margin-top:8px; font-weight:600}
+.step .d{font-size:13px; color:var(--muted); margin-top:5px; line-height:1.42}
+
+/* ---------- footnote ---------- */
+footer{border-top:2px solid var(--ink); padding-top:20px; font-size:14px; color:var(--muted)}
+footer p{margin:0 0 11px}
+footer p:last-child{margin:0}
+details summary{cursor:pointer; font-family:Archivo,sans-serif; font-size:11px; font-weight:600;
+  letter-spacing:.13em; text-transform:uppercase; color:var(--v400); margin-bottom:12px}
+details[open] summary{margin-bottom:14px}
+
+@media (max-width:520px){
+  body{font-size:16px; padding-inline:16px}
+  .mast{padding-block:30px 16px}
+  ol.args > li{grid-template-columns:26px 1fr; gap:11px}
+}
+@media (prefers-reduced-motion:reduce){*{animation:none!important; transition:none!important}}
+</style>
+
+<div class="wrap">
+
+<header class="mast">
+  <p class="kicker">Creandum Fund VII &middot; Seed &middot; 11 September 2026</p>
+  <h1>Squid</h1>
+  <p class="sub">The model of record for electricity networks. Squid&nbsp;Labs&nbsp;Ltd, London.</p>
+  <div class="verdict">
+    <span class="stamp">Lead the seed</span>
+    <span class="line ui">$12&ndash;15M at ~$60M post &middot; ~20&ndash;22% &middot; first priced round</span>
+  </div>
+</header>
+
+<dl class="facts">
+  <div class="fact"><dt>Incorporated</dt><dd>22 Dec 2025<small>Nine months old</small></dd></div>
+  <div class="fact"><dt>Rounds priced</dt><dd>None<small>Share capital still £1</small></dd></div>
+  <div class="fact"><dt>Headcount</dt><dd>3<small>Two founders, one hire</small></dd></div>
+  <div class="fact"><dt>Launch customer</dt><dd>NGED<small>National Grid Electricity Distribution</small></dd></div>
+</dl>
+
+<div class="key">
+  <b>Evidence key</b>
+  <span><span class="chip ok">verified</span> two or more independent sources</span>
+  <span><span class="chip warn">company claim</span> not corroborated</span>
+  <span><span class="chip bad">unknown</span> no public source exists</span>
+</div>
+
+<section>
+  <h2><span class="num">01</span> Recommendation</h2>
+  <hr class="rule">
+  <p class="lede">Squid is building the vendor-neutral system of record for electricity network models — and nobody has priced the company yet.</p>
+  <p>Every network operator's model of its own grid is scattered across DIgSILENT PowerFactory, Siemens PSS&reg;E, IPSA, CYME, ETAP, GIS systems and spreadsheets, in incompatible formats with no shared version history. Squid imports all of them and resolves them into one governed, versioned model with lineage, topology validation and scenario management. Planners query it in a browser; AI agents run power-system analysis against it. Their own line: <em>&ldquo;the grid has a repo now.&rdquo;</em></p>
+  <p>Nine months after incorporation, with three people, they are in production at <strong>National Grid Electricity Distribution</strong>, powering the FlexPortal that NGED launched publicly in February 2026. And per the UK register they have never priced a round — share capital stands at £1 since incorporation, no share allotment has ever been filed, and both founders remain persons with significant control at 25&ndash;50% each.</p>
+  <p class="last">A lead investor here would be setting the first price on a company that is already inside a Tier-1 utility. That is a rare shape, and it will not stay open.</p>
+</section>
+
+<section>
+  <h2><span class="num">02</span> Why this company</h2>
+  <hr class="rule">
+  <ol class="args">
+    <li>
+      <span class="mark">A</span>
+      <div>
+        <h3>The founders ran the function they are selling into.</h3>
+        <p>Conor Jones spent nine years at National Grid, rising from power systems engineer to Digital Product Line Director — reported as the youngest Director at National Grid Transmission, with 60+ engineers and a £10M+ annual budget — then went to Octopus Energy as Head of Product. George Kolokotronis was Head of Tech at Octopus Energy, via AWS and Cambridge, and has been a company director since he was nineteen. This is not ex-FAANG engineers discovering energy. They are the customer.</p>
+      </div>
+    </li>
+    <li>
+      <span class="mark">B</span>
+      <div>
+        <h3>They took the one position an incumbent structurally cannot.</h3>
+        <p>Siemens, DIgSILENT, Eaton and ETAP all sell seats of their own simulation engines. The entire value of Squid is neutrality across all five formats. An incumbent shipping this would be building the thing that makes its own file format irrelevant. That is not a moat a feature release erodes — and it is why the category has stayed unclaimed while the top five vendors between them hold just under half of a multi-billion-dollar market.</p>
+      </div>
+    </li>
+    <li>
+      <span class="mark">C</span>
+      <div>
+        <h3>They got a Tier-1 utility into production at three people.</h3>
+        <p>National Grid does not buy software from three-person companies. Squid cleared ISO 27001:2022 and SOC 2 Type I and II first, then entered through a stakeholder-facing wedge — making network data legible to third parties — rather than a core-systems replacement. That is a deliberate go-to-market, and it is the hardest thing on this page to fake.</p>
+      </div>
+    </li>
+  </ol>
+</section>
+
+<section>
+  <h2><span class="num">03</span> Why now</h2>
+  <hr class="rule">
+  <p class="lede">Three unlocks, all dated, none of them in the company's control.</p>
+  <div class="scroll">
+    <table>
+      <thead><tr><th>Unlock</th><th>Evidence</th></tr></thead>
+      <tbody>
+        <tr><td><strong>The queue became the binding constraint</strong></td><td>~1,700&nbsp;GW waiting for grid connection across Europe. €100B of renewables and storage stuck in <em>distribution</em> queues across eight countries — 375&nbsp;GW renewables, 455&nbsp;GW storage. UK waits run to 10&ndash;15 years.</td></tr>
+        <tr><td><strong>Data quality became a licence condition</strong></td><td>Ofgem's Data Best Practice sits under RIIO-ED2 Special Condition 9.5 (Digitalisation). DNOs must publish Digitalisation Strategy and Action Plans and make network data usable by third parties.</td></tr>
+        <tr><td><strong>The money arrived</strong></td><td>€584B of EU grid investment required 2020&ndash;2030, roughly €170B of it digitalisation. EU electricity demand forecast up ~60% by 2030.</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>There is a fourth unlock specific to this moment: <strong>AI cannot be applied to grid planning until there is a clean, governed model to apply it to.</strong> This is exactly the argument Creandum made for Rillet — that NetSuite's data syntax had been &ldquo;muddled by countless customizations,&rdquo; so the AI opportunity in finance required rebuilding the general ledger first.</p>
+  <p class="last">Network models are in that condition, for that reason. Squid is rebuilding the ledger.</p>
+</section>
+
+<section>
+  <h2><span class="num">04</span> Market, built bottom-up</h2>
+  <hr class="rule">
+  <div class="scroll">
+    <table>
+      <thead><tr><th>Buyer segment</th><th class="n">Count</th><th class="n">ACV</th><th class="n">Serviceable</th></tr></thead>
+      <tbody>
+        <tr><td>European TSOs</td><td class="n">~40</td><td class="n">£400k</td><td class="n">£16M</td></tr>
+        <tr><td>Large European DSOs (&gt;100k connections)</td><td class="n">~190</td><td class="n">£200k</td><td class="n">£38M</td></tr>
+        <tr><td>UK DNO licence areas</td><td class="n">14</td><td class="n">£400k</td><td class="n">£5.6M</td></tr>
+        <tr><td>US investor-owned utilities</td><td class="n">~200</td><td class="n">£300k</td><td class="n">£60M</td></tr>
+        <tr><td>US municipals and co-ops of scale</td><td class="n">~900</td><td class="n">£60k</td><td class="n">£54M</td></tr>
+        <tr><td>Engineering consultancies and developers</td><td class="n">~1,500</td><td class="n">£50k</td><td class="n">£75M</td></tr>
+        <tr class="total"><td>Serviceable ARR, narrow wedge</td><td class="n"></td><td class="n"></td><td class="n">≈£250M</td></tr>
+      </tbody>
+      <caption>Buyer counts are public; ACVs are my assumptions, stated so they can be argued with.</caption>
+    </table>
+  </div>
+  <p><strong>The wedge alone does not make a fund-returner, and the memo should say so.</strong> A 25% share of £250M is ~£60M ARR — a €600M&ndash;€1B company. The case for more rests entirely on expansion, and it is a specific claim rather than a hand-wave: whoever owns the approved network model owns the workflows that depend on it — connection-queue management, reinforcement planning, flexibility procurement, outage planning, asset investment.</p>
+  <p class="last">Those budgets sit inside a power-system software market variously estimated at $6.75B growing ~8% or $12.1B growing ~13%. The spread is wide enough that I treat it as <em>several billion, compounding</em> rather than as a number.</p>
+</section>
+
+<section>
+  <h2><span class="num">05</span> What is actually verified</h2>
+  <hr class="rule">
+  <div class="scroll">
+    <table>
+      <thead><tr><th>Claim</th><th>Status</th></tr></thead>
+      <tbody>
+        <tr><td>NGED is launch customer; Squid powers the FlexPortal launched Feb 2026</td><td><span class="chip ok">verified</span></td></tr>
+        <tr><td>Incorporation, directors, PSCs, share capital, complete filing history</td><td><span class="chip ok">verified</span></td></tr>
+        <tr><td>Conor Jones: nine years National Grid, Head of Product at Octopus</td><td><span class="chip ok">verified</span></td></tr>
+        <tr><td>ISO 27001:2022, SOC 2 Type I and II</td><td><span class="chip warn">company claim</span></td></tr>
+        <tr><td>Northern Powergrid and further European operators as launching partners</td><td><span class="chip warn">company claim</span></td></tr>
+        <tr><td>Member, GB CIM Advisory Group</td><td><span class="chip warn">company claim</span></td></tr>
+        <tr><td>Contracted ARR</td><td><span class="chip bad">unknown</span></td></tr>
+      </tbody>
+      <caption>Four independent outlets plus NGED's own newsroom corroborate the partnership. No public source carries revenue.</caption>
+    </table>
+  </div>
+</section>
+
+<section>
+  <h2><span class="num">06</span> The cap table</h2>
+  <hr class="rule">
+  <div class="registry">
+    <h3>UK Companies House &middot; SQUID LABS LTD &middot; 16925657 &middot; read 11 Sep 2026</h3>
+    <ul>
+      <li>Incorporated 22 Dec 2025 with a <span class="mono">statement of capital of GBP 1</span>.</li>
+      <li>Complete filing history: the incorporation, and three registered-office changes. Nothing else.</li>
+      <li>No <span class="mono">SH01</span>. No capital increase. No amended articles. No corporate PSC.</li>
+      <li>Both founders remain PSCs at <span class="mono">25&ndash;50%</span> of shares and votes each.</li>
+    </ul>
+    <p class="punch">A priced round essentially always produces an SH01 and amended articles. Their absence means the Y&nbsp;Combinator, 20VC, Leap Forward and 33East money is on unconverted SAFEs — <strong>no investor has yet set a price on this company.</strong></p>
+  </div>
+  <p class="last"><em>Caveat:</em> allotments must be filed within a month, so a round closed in the last few weeks could still be in transit. Re-check the register before any term sheet.</p>
+</section>
+
+<section>
+  <h2><span class="num">07</span> Fund math</h2>
+  <hr class="rule">
+  <p>A €500M fund needs outcomes that move it, so the arithmetic has to be stated rather than implied. Entry at a $12&ndash;15M seed on a ~$60M post gives ~20&ndash;22% ownership, priced first; dilution through Series&nbsp;A&ndash;D at ~20% per round leaves ~8&ndash;9% at exit.</p>
+  <div class="scroll">
+    <table>
+      <thead><tr><th>Exit outcome</th><th class="n">Ownership</th><th class="n">Proceeds</th><th class="n">On a €500M fund</th></tr></thead>
+      <tbody>
+        <tr><td>€1B</td><td class="n">~8.5%</td><td class="n">~€85M</td><td class="n">0.17&times;</td></tr>
+        <tr><td>€2B</td><td class="n">~8.5%</td><td class="n">~€170M</td><td class="n">0.34&times;</td></tr>
+        <tr><td>€3B</td><td class="n">~8.5%</td><td class="n">~€255M</td><td class="n">0.51&times;</td></tr>
+      </tbody>
+      <caption>Fund-shaping begins at €2B. Below that it is respectable rather than decisive.</caption>
+    </table>
+  </div>
+  <p class="last">So this is a bet on the expansion case specifically, not on the wedge. The wedge buys the position; the workflow layer is what makes it matter. Same shape as the Rillet bet.</p>
+</section>
+
+<section>
+  <h2><span class="num">08</span> The bear case</h2>
+  <hr class="rule">
+  <div class="risk">
+    <h3>Argued as hard as I can</h3>
+    <ol>
+      <li><strong>Short, slow buyer list.</strong> ~40 TSOs and ~190 large DSOs in Europe, buying on 12&ndash;24 month cycles gated by regulated price-control allowances. Squid could be excellent and still grow at the speed of RIIO.</li>
+      <li><strong>The wedge might be a feature.</strong> Version control for network models could be absorbed into a PowerFactory release, or delivered as a consultancy engagement.</li>
+      <li><strong>Expansion is assumed, not proven.</strong> No evidence yet that they can sell a second product.</li>
+      <li><strong>Team of three</strong> against an enterprise motion and five proprietary file formats.</li>
+      <li><strong>A US entity exists</strong> (Squid Group, Inc.) alongside Squid Labs Ltd. The register shows no corporate PSC over the UK company, so no flip has been recorded — but Delaware is the YC default and this should be settled before investing.</li>
+      <li><strong>Name collision</strong> with an unrelated crypto company and a well-known proxy server. At least one commercial database has already merged their funding histories.</li>
+    </ol>
+  </div>
+  <p><strong>What would need to be true:</strong> NGED is a paid production contract rather than an innovation-budget pilot; at least one more operator has signed, ideally outside the UK, proving the model is not a Britain-specific regulatory artefact; the founders can name the second and third products with a design partner for one; utility ACVs can reach £300k+ within 24 months.</p>
+  <p class="last"><strong>The single fact that would most change this recommendation</strong> is whether anyone is paying, and how much. Everything public shows deployment and a marquee logo; nothing public shows revenue. That is the first question on the call, and it cannot be answered from desk research.</p>
+</section>
+
+<section>
+  <h2><span class="num">09</span> Why Creandum</h2>
+  <hr class="rule">
+  <p><strong>White space.</strong> Across all 154 companies in Creandum's portfolio, climate and energy is the coldest active sector — six active companies, nothing new since terralayr in October 2024. Grid software is not represented at all, and there is no conflict: terralayr trades energy flexibility, Enode sits on devices, Monta on charging. None touch network planning for operators.</p>
+  <p><strong>Shape match.</strong> A vendor-neutral software layer above incumbent tools, days-not-months time-to-value, a marquee industrial logo, real-world data compounding — that is the Sereact pattern, in Creandum's own words:</p>
+  <blockquote>Sereact's approach is to build a foundational model that works across all relevant robotics platforms&hellip; this real world deployment of their models provides valuable data for training.<cite>Creandum, <em>Backing Sereact</em>, January 2025</cite></blockquote>
+  <p><strong>Non-consensus by construction.</strong> Over 90% of the Euro Seed 50 is AI-native and the vertical-agent lane is saturated. Squid is AI-native <em>and</em> in a sector nobody is crowding. It is the closest thing on the longlist to &ldquo;before it's obvious.&rdquo;</p>
+  <p class="last"><strong>Not on the Euro Seed 50.</strong> That list ran in June 2025; Squid incorporated in December. Creandum converted 8 of those 50 into investments, which makes the list their funnel rather than their publicity — and means this company has not been through it.</p>
+</section>
+
+<section>
+  <h2><span class="num">10</span> How the pick was reached</h2>
+  <hr class="rule">
+  <div class="funnel">
+    <div class="step"><div class="v">154</div><div class="l">Calibration</div><div class="d">Creandum portfolio decoded, with dates and partner leads</div></div>
+    <div class="step"><div class="v">50</div><div class="l">Excluded</div><div class="d">Full Euro Seed 50 roster, treated as already-seen</div></div>
+    <div class="step"><div class="v">153</div><div class="l">Longlist</div><div class="d">Three thesis lanes, sourced upstream of press</div></div>
+    <div class="step"><div class="v">12</div><div class="l">Shortlist</div><div class="d">Seven hard gates, then scored out of 100</div></div>
+    <div class="step"><div class="v">3</div><div class="l">Deep dives</div><div class="d">Registry, product, market, competition, bear case</div></div>
+    <div class="step"><div class="v">1</div><div class="l">Pick</div><div class="d">Squid, at 91/100</div></div>
+  </div>
+  <p><strong>The runner-up is Seeing Systems</strong> (London, YC W26) — autonomous strike drones, with the UK Royal Marine Commandos, other UK units and four NATO forces already engaged at seven people. Stronger pull evidence than Squid. Not recommended for two reasons: Creandum has zero defence exposure across 154 companies and many European LPAs exclude lethal weapons, so the fund may be structurally unable to lead; and &ldquo;European Anduril&rdquo; is now a crowded trade rather than a non-obvious one. Worth establishing the LPA position internally regardless — on current evidence the category is being skipped by default rather than by decision.</p>
+  <p class="last"><strong>The most instructive elimination was Flower Labs</strong> — federated learning out of Cambridge, a near-perfect thesis fit for the edge-AI white space, and disqualified on a single fact: a $20M Series&nbsp;A led by Felicis in February 2024. It is the reason the stage gate is checked against a registry or a primary announcement and never against an aggregator.</p>
+</section>
+
+<footer>
+  <details>
+    <summary>Limitations of this memo</summary>
+    <p><strong>No primary research with people.</strong> Founder, customer and expert calls were out of scope for this pass, so everything here is desk-based — and the single most important open question, contracted ARR, is precisely the one a twenty-minute founder call would answer.</p>
+    <p><strong>Market sizing is constructed.</strong> The bottom-up table uses public buyer counts with my own ACV assumptions, stated rather than buried.</p>
+    <p><strong>Sourcing breadth.</strong> Company registries were used to verify finalists rather than as bulk discovery; EIC, Vinnova and Innovate UK grant sweeps and patent filings were not run.</p>
+  </details>
+  <p>Every factual claim in this memo is traced to a URL with an access date in the accompanying source appendix. Five items are explicitly flagged as unverified rather than smoothed over.</p>
+  <p class="mono" style="font-size:12.5px">Prepared 11 September 2026 &middot; Desk research, public sources only</p>
+</footer>
+
+</div>
