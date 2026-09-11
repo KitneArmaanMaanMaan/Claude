@@ -1,0 +1,299 @@
+<title>Grown, Not Fabricated</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chivo:wght@600;700;900&family=Literata:opsz,wght@7..72,400;7..72,500;7..72,600&family=JetBrains+Mono:wght@400;500;700&display=swap">
+<style>
+/* Dark-first. Palette taken from two-channel fluorescence microscopy:
+   GCaMP green and mCherry magenta on a dark field. */
+:root{
+  --field:#080b0a; --slide:#101614; --sunk:#0c110f;
+  --ink:#e9f1ec; --body:#b6c4bc; --muted:#86968d; --faint:#5e6d65;
+  --rule:#1e2a24; --rule-soft:#161f1b;
+  --ch1:#35d47e; --ch1-soft:#0f2a1c;   /* green  — accent, verified */
+  --ch2:#e0559b; --ch2-soft:#2a1020;   /* magenta— the heresy */
+  --amber:#e2a33f; --amber-soft:#2a2010;
+  --alarm:#f2705e; --alarm-soft:#2d1512;
+  --measure:69ch;
+}
+@media (prefers-color-scheme: light){
+  :root:not([data-theme="dark"]){
+    --field:#f6f8f6; --slide:#ffffff; --sunk:#ecefec;
+    --ink:#0f1613; --body:#36443d; --muted:#5e6d65; --faint:#8a978f;
+    --rule:#d5ded8; --rule-soft:#e5ebe7;
+    --ch1:#14804a; --ch1-soft:#e2f2e9;
+    --ch2:#b32d73; --ch2-soft:#fae4f0;
+    --amber:#96620d; --amber-soft:#f8eedc;
+    --alarm:#b8362a; --alarm-soft:#fae3e0;
+  }
+}
+:root[data-theme="light"]{
+  --field:#f6f8f6; --slide:#ffffff; --sunk:#ecefec;
+  --ink:#0f1613; --body:#36443d; --muted:#5e6d65; --faint:#8a978f;
+  --rule:#d5ded8; --rule-soft:#e5ebe7;
+  --ch1:#14804a; --ch1-soft:#e2f2e9;
+  --ch2:#b32d73; --ch2-soft:#fae4f0;
+  --amber:#96620d; --amber-soft:#f8eedc;
+  --alarm:#b8362a; --alarm-soft:#fae3e0;
+}
+*{box-sizing:border-box}
+body{
+  background:var(--field); color:var(--body);
+  font-family:Literata,Georgia,serif; font-size:17px; line-height:1.66;
+  margin:0; padding-inline:20px; padding-block:0;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:var(--measure); margin:0 auto; padding-block:0 92px}
+h1,h2,h3,.ui{font-family:Chivo,"Helvetica Neue",Arial,sans-serif}
+.mono{font-family:"JetBrains Mono",ui-monospace,Menlo,monospace; font-variant-numeric:tabular-nums}
+
+/* ---- specimen label masthead ---- */
+.slidelabel{border:1px solid var(--rule); border-top:3px solid var(--ch1);
+  background:var(--slide); margin:34px 0 30px; padding:22px 24px 24px}
+.spec{display:flex; flex-wrap:wrap; gap:6px 20px; font-family:"JetBrains Mono",monospace;
+  font-size:11px; letter-spacing:.04em; color:var(--faint); margin-bottom:20px}
+.spec b{color:var(--ch1); font-weight:500}
+h1{font-family:Chivo,sans-serif; font-size:clamp(34px,7.4vw,54px); font-weight:900;
+  letter-spacing:-.03em; line-height:1.02; margin:0 0 12px; color:var(--ink); text-wrap:balance}
+.sub{font-size:18px; color:var(--muted); margin:0}
+
+/* ---- verdict ---- */
+.verdict{display:flex; flex-wrap:wrap; align-items:center; gap:10px 14px; margin:0 0 34px}
+.stamp{font-family:Chivo,sans-serif; font-weight:700; font-size:12.5px; letter-spacing:.1em;
+  text-transform:uppercase; color:var(--field); background:var(--ch2); padding:7px 13px; border-radius:2px}
+.verdict .q{font-family:"JetBrains Mono",monospace; font-size:13.5px; color:var(--muted)}
+
+/* ---- the contrast block: consensus vs heresy ---- */
+.contrast{display:grid; grid-template-columns:1fr 1fr; gap:1px; background:var(--rule);
+  border:1px solid var(--rule); margin:0 0 38px}
+.contrast > div{background:var(--slide); padding:20px 20px 22px}
+.contrast .lbl{font-family:Chivo,sans-serif; font-size:10.5px; font-weight:700; letter-spacing:.14em;
+  text-transform:uppercase; margin:0 0 11px}
+.contrast .a .lbl{color:var(--faint)}
+.contrast .b .lbl{color:var(--ch2)}
+.contrast p{margin:0; font-size:16px; line-height:1.55}
+.contrast .a p{color:var(--muted)}
+.contrast .b p{color:var(--ink); font-weight:500}
+@media (max-width:540px){.contrast{grid-template-columns:1fr}}
+
+/* ---- sections ---- */
+section{margin-bottom:46px}
+h2{font-size:12.5px; font-weight:700; letter-spacing:.15em; text-transform:uppercase;
+  color:var(--ch1); margin:0 0 6px; display:flex; align-items:baseline; gap:12px}
+h2 .n{font-family:"JetBrains Mono",monospace; color:var(--faint); font-weight:400; font-size:11.5px}
+h2 + .lede{font-size:22px; line-height:1.4; color:var(--ink); font-weight:600; margin:0 0 20px;
+  text-wrap:balance; letter-spacing:-.01em}
+hr.r{height:1px; background:var(--rule); border:0; margin:0 0 20px}
+p{margin:0 0 17px}
+p.last{margin-bottom:0}
+strong{color:var(--ink); font-weight:600}
+em{color:var(--ink)}
+a{color:var(--ch1); text-underline-offset:3px}
+a:focus-visible,summary:focus-visible{outline:2px solid var(--ch1); outline-offset:3px}
+
+/* ---- registry pull ---- */
+.reg{background:var(--slide); border:1px solid var(--rule); border-left:3px solid var(--ch1);
+  padding:20px 22px; margin:0 0 18px}
+.reg h3{font-family:Chivo,sans-serif; font-size:10.5px; letter-spacing:.14em; text-transform:uppercase;
+  color:var(--ch1); margin:0 0 13px; font-weight:700}
+.reg blockquote{margin:0; padding:0; font-size:17px; color:var(--ink); line-height:1.55}
+.reg .after{margin:14px 0 0; padding-top:14px; border-top:1px solid var(--rule-soft); font-size:15.5px}
+
+/* ---- tables ---- */
+.scroll{overflow-x:auto; margin:0 0 10px; border-block:1px solid var(--rule)}
+table{width:100%; border-collapse:collapse; font-size:15px; min-width:420px}
+caption{caption-side:bottom; text-align:left; font-size:13px; color:var(--muted); padding-top:9px; line-height:1.5}
+th{font-family:Chivo,sans-serif; font-size:10px; font-weight:700; letter-spacing:.12em; text-transform:uppercase;
+  color:var(--faint); text-align:left; padding:10px 12px 10px 0; border-bottom:1px solid var(--rule); white-space:nowrap}
+td{padding:11px 12px 11px 0; border-bottom:1px solid var(--rule-soft); vertical-align:top}
+tbody tr:last-child td{border-bottom:0}
+td.n,th.n{text-align:right; padding-right:0; font-family:"JetBrains Mono",monospace;
+  font-variant-numeric:tabular-nums; white-space:nowrap}
+
+/* ---- chips ---- */
+.chip{display:inline-block; font-family:"JetBrains Mono",monospace; font-size:10.5px; font-weight:500;
+  padding:3px 7px; border-radius:2px; white-space:nowrap}
+.ok{color:var(--ch1); background:var(--ch1-soft)}
+.claim{color:var(--amber); background:var(--amber-soft)}
+.none{color:var(--alarm); background:var(--alarm-soft)}
+
+/* ---- roadmap: real sequence, so numbered ---- */
+.road{display:grid; gap:0; margin:0 0 14px; border-block:1px solid var(--rule)}
+.road > div{display:grid; grid-template-columns:98px 1fr; gap:16px; padding:13px 0;
+  border-bottom:1px solid var(--rule-soft); align-items:baseline}
+.road > div:last-child{border-bottom:0}
+.road .when{font-family:"JetBrains Mono",monospace; font-size:12px; color:var(--ch2); font-weight:500}
+.road .what{font-size:15.5px}
+.road .what b{color:var(--ink)}
+@media (max-width:480px){.road > div{grid-template-columns:1fr; gap:4px}}
+
+/* ---- bear case ---- */
+.bear{border-left:3px solid var(--alarm); padding:2px 0 2px 20px; margin:0 0 20px}
+.bear h3{font-family:Chivo,sans-serif; font-size:10.5px; letter-spacing:.14em; text-transform:uppercase;
+  color:var(--alarm); margin:0 0 13px; font-weight:700}
+.bear ol{margin:0; padding-left:19px; display:grid; gap:12px; font-size:16px}
+.bear li::marker{color:var(--alarm); font-family:"JetBrains Mono",monospace; font-size:13px}
+
+/* ---- odds strip ---- */
+.odds{display:grid; grid-template-columns:repeat(auto-fit,minmax(148px,1fr)); gap:1px;
+  background:var(--rule); border:1px solid var(--rule); margin:0 0 18px}
+.odds div{background:var(--slide); padding:15px 16px}
+.odds dt{font-family:Chivo,sans-serif; font-size:10px; font-weight:700; letter-spacing:.13em;
+  text-transform:uppercase; color:var(--faint); margin:0 0 8px}
+.odds dd{margin:0; font-family:"JetBrains Mono",monospace; font-size:19px; font-weight:500;
+  color:var(--ink); font-variant-numeric:tabular-nums}
+.odds dd small{display:block; font-family:Literata,serif; font-size:12.5px; color:var(--muted);
+  margin-top:5px; font-variant-numeric:normal; line-height:1.4}
+
+footer{border-top:1px solid var(--rule); padding-top:22px; font-size:14px; color:var(--muted)}
+footer p{margin:0 0 11px}
+footer p:last-child{margin:0}
+details summary{cursor:pointer; font-family:Chivo,sans-serif; font-size:10.5px; font-weight:700;
+  letter-spacing:.14em; text-transform:uppercase; color:var(--ch1); margin-bottom:12px}
+@media (max-width:520px){ body{font-size:16px; padding-inline:16px} }
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+
+<div class="wrap">
+
+<div class="slidelabel">
+  <div class="spec">
+    <span><b>SPECIMEN</b> Frontier Computing Ltd</span>
+    <span><b>REG</b> 17255584</span>
+    <span><b>INC</b> 2026-06-02</span>
+    <span><b>CAP</b> GBP 1</span>
+  </div>
+  <h1>Grown, not fabricated.</h1>
+  <p class="sub">A seed memo on the only company in the process whose central claim the market believes is wrong.</p>
+</div>
+
+<div class="verdict">
+  <span class="stamp">Lead the seed</span>
+  <span class="q ui">one-or-two-in-forty position &middot; P(total loss) &gt; 70%</span>
+</div>
+
+<div class="contrast">
+  <div class="a">
+    <p class="lbl">What the market assumes</p>
+    <p>Compute is fabricated in a foundry. The only live argument is <em>which</em> silicon — GPU, TPU, ASIC, photonic, analog, neuromorphic. Roughly $400B a year is being deployed on that assumption.</p>
+  </div>
+  <div class="b">
+    <p class="lbl">What Frontier claims</p>
+    <p>The substrate is wrong. Grow living neuronal tissue and train on that. Memory and compute are colocated inside the cell, so the bottleneck the whole GPU industry engineers around is simply absent.</p>
+  </div>
+</div>
+
+<section>
+  <h2><span class="n">01</span> The heresy</h2>
+  <hr class="r">
+  <p>The market's verdict on biological computing is not neutral, it is dismissive. When Cortical Labs' DishBrain learned Pong in 2022 it was covered as a curiosity, not a roadmap. Four years on, no serious ML team trains anything on neurons. The settled view is that wetware is a neuroscience instrument that makes good press, and that anyone claiming otherwise has not understood how far behind it is.</p>
+  <p class="last"><strong>That consensus may well be right</strong> — §05 argues it as hard as I can. But it is worth examining what the consensus is actually built on.</p>
+</section>
+
+<section>
+  <h2><span class="n">02</span> Why the crowd might be wrong</h2>
+  <hr class="r">
+  <p class="lede">Wetware did not stall because biological computing failed. It stalled on a plumbing problem.</p>
+  <p>Cultured neural tissue develops a necrotic core once it passes roughly <span class="mono">300&ndash;400&nbsp;µm</span>, because oxygen and nutrients diffuse no further than a few hundred micrometres without a blood supply. Past that geometric limit, the middle of your tissue dies. Every scaling ceiling in the field traces back to that one fact. The field never concluded that the idea was wrong — it hit vascularisation and stopped.</p>
+  <p>That is a biology problem, and biology has been working on it. Protocols published in 2025&ndash;26 now grow cortical organoids past <span class="mono">3&nbsp;mm</span> without necrotic cores, using endothelial co-culture, microfluidic perfusion and 3D bioprinting. <strong>The blocker that produced the consensus is being dismantled in academic labs right now</strong> — which means the question the market treats as settled was settled against an obstacle that is going away.</p>
+  <p>Meanwhile the case for caring has strengthened. The binding constraint on frontier training moved from raw FLOPs to memory bandwidth and energy. A single training GPU draws 700&ndash;2,700&nbsp;W and runs for weeks; datacentre buildout is now gated on grid connections, with ~1,700&nbsp;GW of projects queued across Europe. A human brain runs ~86 billion neurons on about <span class="mono">20&nbsp;watts</span>.</p>
+  <p class="last">Nobody sane claims neurons replace GPUs. The claim worth underwriting is narrower: <strong>that a class of work exists — continual learning, adaptation without catastrophic forgetting, learning from very few trials — where a substrate that learns the way brains learn is not a thousand times behind but ahead.</strong> If that class exists and is commercially useful, whoever grows the substrate at scale owns a category with no incumbent.</p>
+</section>
+
+<section>
+  <h2><span class="n">03</span> The founder</h2>
+  <hr class="r">
+  <p><strong>Michael Domarkas is nineteen</strong> — Companies House gives his date of birth as November 2006. Cambridge natural scientist. He has been culturing neuronal tissue for two years, starting at seventeen on a $20,000 Emergent Ventures grant, before there was a company, a batch, or an investor willing to fund it.</p>
+  <p>Then the part that matters most, taken from the register rather than the pitch:</p>
+  <div class="reg">
+    <h3>Companies House &middot; 17255584 &middot; persons with significant control</h3>
+    <blockquote>Sole person with significant control. Ownership of shares — <strong>75% or more</strong>. Ownership of voting rights — <strong>75% or more</strong>. <strong>Right to appoint or remove directors.</strong> Sole director. Statement of capital: <span class="mono">GBP 1</span>. No SH01 filed.</blockquote>
+    <p class="after">He has raised $10M and given away neither control nor a board seat. That is not a negotiating outcome — it is a statement about how certain he is. It also means the money in is on unconverted SAFEs, and <strong>no priced round exists.</strong></p>
+  </div>
+  <p class="last">The obvious counter-argument is in §05. He is nineteen, he is a solo founder, and the Principal Investigator / CSO role is still open.</p>
+</section>
+
+<section>
+  <h2><span class="n">04</span> What is actually built — and what is only claimed</h2>
+  <hr class="r">
+  <div class="scroll">
+    <table>
+      <thead><tr><th>Claim</th><th>Status</th></tr></thead>
+      <tbody>
+        <tr><td>Incorporation, sole director, sole PSC at 75%+, capital £1, no allotment filed</td><td><span class="chip ok">verified</span></td></tr>
+        <tr><td>$10M pre-seed led by General Catalyst; Amino Collective, LocalGlobe, KAYA, Long Journey</td><td><span class="chip ok">multi-source</span></td></tr>
+        <tr><td>Culture trained to play Frogger — 92% peak cross rate over 25 games, after <strong>one hour</strong> of real-time learning</td><td><span class="chip claim">company demo</span></td></tr>
+        <tr><td>A tissue-culture method that breaks the ~1M-neuron vascularisation ceiling</td><td><span class="chip none">unpublished</span></td></tr>
+        <tr><td>Contracted revenue, customers, or third-party replication</td><td><span class="chip none">none</span></td></tr>
+      </tbody>
+      <caption>The vascularisation method is the load-bearing claim of the entire thesis, and it rests on the company's own statement plus a demo video. No paper, preprint or independent replication was located.</caption>
+    </table>
+  </div>
+  <p>The scale claim does check out arithmetically. Cortical Labs' CL1 shipped in March 2025 at ~$35k, with ~800k neurons demonstrated on a Pong-like task and a 2025 review putting viable complexity for such 2D arrays in the thousands of <em>active</em> neurons. 500M against ~200k active is 2,500×.</p>
+  <p>And note what the roadmap does that most frontier bets cannot: <strong>it is falsifiable within months.</strong></p>
+  <div class="road">
+    <div><span class="when">Jun 2026</span><span class="what"><b>Frogger, 92% cross rate</b> after one hour of live learning — published</span></div>
+    <div><span class="when">End 2026</span><span class="what"><b>100M-neuron system</b> live. It either exists by December or it does not</span></div>
+    <div><span class="when">Jan 2027</span><span class="what"><b>500M-neuron cluster</b> — 2,500× the largest commercially available system</span></div>
+  </div>
+  <p class="last">Most deep-tech bets cannot be checked for five years. This one resolves its first public claim inside a single reporting period, which changes how a seed position can be managed.</p>
+</section>
+
+<section>
+  <h2><span class="n">05</span> The bear case</h2>
+  <hr class="r">
+  <div class="bear">
+    <h3>Argued as hard as I can</h3>
+    <ol>
+      <li><strong>The hardware dies.</strong> Cortical Labs keeps neurons alive roughly six months on active life support. A compute substrate with a half-life measured in months has an operating model nobody has solved.</li>
+      <li><strong>The clock gap is nine orders of magnitude.</strong> Neurons fire at Hz; transistors switch at GHz. Parallelism is the offered answer, but it does not rescue every workload and the gap is not a detail.</li>
+      <li><strong>Reproducibility.</strong> No two cultures are identical. ML as practised needs deterministic, repeatable training runs. A substrate that answers differently each time is a research instrument, not infrastructure.</li>
+      <li><strong>The central claim is unpublished.</strong> No peer review, no preprint, no independent replication. A Frogger video is not evidence of a solved diffusion limit.</li>
+      <li><strong>Frogger is not training.</strong> DishBrain played Pong in 2022. Four years and one more game later, the distance to "ML training substrate" is not incremental — it is the whole problem. Neuron <em>count</em> is not capability.</li>
+      <li><strong>Team of one.</strong> A nineteen-year-old solo founder, scientific leadership unfilled, attempting a problem that has defeated well-funded academic groups.</li>
+      <li><strong>Ethics is a live wire.</strong> Human-derived neural tissue at 100M+ neurons walks into an unresolved bioethics debate about sentience. That threatens LP comfort, university partnerships and licence to operate — and it gets worse precisely as the technology succeeds.</li>
+      <li><strong>75%+ with board control</strong> is evidence of conviction and also a governance risk. There is no mechanism by which investors correct a wrong turn.</li>
+    </ol>
+  </div>
+  <p class="last"><strong>The single fact that would most change the conclusion:</strong> whether the vascularisation result survives contact with an independent lab. Everything else is downstream of it.</p>
+</section>
+
+<section>
+  <h2><span class="n">06</span> Fund math, honestly</h2>
+  <hr class="r">
+  <p>There is no revenue, no ACV and no bottom-up TAM that means anything here, and constructing one would be dishonest. The correct framing is a barbell.</p>
+  <dl class="odds">
+    <div><dt>Entry</dt><dd>$20&ndash;30M<small>Seed, first priced round, for ~15&ndash;20%</small></dd></div>
+    <div><dt>Most likely</dt><dd>Zero<small>P(total loss) above 70%</small></dd></div>
+    <div><dt>If it works</dt><dd>€5B+<small>1% of a ~$600B/yr substrate industry</small></dd></div>
+    <div><dt>Fund impact</dt><dd>~1.0&times;<small>~10% post-dilution of €5B, on a €500M fund</small></dd></div>
+  </dl>
+  <p>A €500M fund making 35&ndash;40 investments should hold <strong>exactly one or two</strong> positions of this shape. Not zero — zero means no exposure to the thing that would matter most if it happened. Not five — five is recklessness dressed as boldness. Creandum currently holds zero.</p>
+  <p class="last">This is also precisely what <em>"invest at 80% conviction, not 100%"</em> is for. That posture costs nothing when applied to companies with customers and revenue. It only means something applied to a bet like this one.</p>
+</section>
+
+<section>
+  <h2><span class="n">07</span> Why Creandum</h2>
+  <hr class="r">
+  <p><strong>Zero biocompute exposure across 154 portfolio companies</strong>, and zero anything adjacent. But a demonstrated appetite for frontier hardware: Black Forest Labs (Dec 2025), Olix (Feb 2026), Hosted&middot;ai (Mar 2026), PAVE Space (Mar 2026). The PAVE memo argued for a space-hardware bet on strategic grounds with no revenue at all. This is the same act of faith pointed at a larger prize.</p>
+  <p><em>"We back the companies of tomorrow before it's obvious"</em> is the firm's own masthead. This is the most literal available instance of it in European seed — and the only candidate in the entire process where a partner would plausibly say <em>nobody has brought us this.</em></p>
+  <p class="last">It is also the kind of company that otherwise flips to the US and gets funded by a16z within eighteen months. Cambridge biology plus London capital is a real European edge, and the seed is still open: $10M in on unconverted SAFEs, capital still £1, founder at 75%+.</p>
+</section>
+
+<section>
+  <h2><span class="n">08</span> What I am not claiming</h2>
+  <hr class="r">
+  <p>I am not claiming this is the highest-expected-value company found. <strong>Squid — grid-network model-of-record, in production at National Grid, also unpriced — is far more likely to return capital.</strong> That memo stands as the low-variance alternative.</p>
+  <p class="last">The narrower claim is this: Squid's central belief is one the market already shares, so it cannot produce a non-consensus outcome. If the brief is to find the company doing what almost everyone qualified believes is wrong, Frontier Computing is that company and Squid is not. Those are different questions with different right answers, and the fund should know which one it is asking.</p>
+</section>
+
+<footer>
+  <details>
+    <summary>How this pick was reached</summary>
+    <p>The first pass longlisted 153 European companies and <strong>153 of 153 had already been validated</strong> by Y Combinator or by an announced round covered in the tech press. That funnel can only return companies someone has already agreed with, which is how it produced a competent, orthodox answer.</p>
+    <p>The second pass scored candidates on a different axis — <em>how wrong the market thinks they are</em> — and sourced upstream of any funding event: company registries, arXiv, the biology literature, and the specific technical areas the market has publicly written off. Neuromorphic computing and formal verification were screened out as no longer contrarian; AMI Labs and Biomemory on stage and ownership.</p>
+  </details>
+  <p>Every factual claim is traced to a URL with an access date in the accompanying source appendix. Six items are explicitly flagged as unverified, including the one the entire thesis rests on.</p>
+  <p class="mono" style="font-size:12px">Prepared 11 September 2026 &middot; Desk research, public sources only &middot; No contact with the company</p>
+</footer>
+
+</div>
