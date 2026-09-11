@@ -1,5 +1,7 @@
 # Twenty companies, analysed on fundamentals
 
+
+📊 **Decision board (20 companies, filterable):** https://claude.ai/code/artifact/050755bc-2eb0-4806-b8fb-5ec52305a974
 Scored against the pattern in `WHAT-CREANDUM-ACTUALLY-LIKES.md`, not against founder CVs or
 cap tables. The four questions asked of each:
 
