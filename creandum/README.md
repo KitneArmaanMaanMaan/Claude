@@ -1,27 +1,17 @@
 # Creandum investment pick — research pack
 
-**Status: no defensible pick. Frontier Computing and Poppins were both withdrawn after adversarial diligence — see [`09-audit/`](09-audit/). Squid is the only survivor. Fresh upstream-sourced candidates are in [`10-upstream/`](10-upstream/).**
-Growing living neuronal tissue as an ML training substrate, against an industry that assumes compute is fabricated in a foundry.
+**Status: no defensible pick, and that is the honest position.**
 
-📄 **Memo:** https://claude.ai/code/artifact/0b726274-5e83-4c65-8bc0-b3ecbb1995e3
+Three picks were proposed across three passes. Two were killed by adversarial diligence:
+**Frontier Computing** (General Catalyst already led a $10M round; team of one; UK entity
+looks like a formation-agent shell pointing to a Delaware topco) and **Poppins** (100 paid
+rentals a day against 350,000 users, in a category that buried Zilok in 2024 on the identical
+20% take rate). **Squid** is the only survivor of the three, and its central unknown — whether
+National Grid actually pays it anything — is still open.
 
-**Low-variance alternative: [Squid](https://squid.energy) (Squid Labs Ltd, London).**
-📄 **Memo:** https://claude.ai/code/artifact/e38f2719-68bd-45dd-8916-a33c27463893
-
----
-
-## Why there are two picks
-
-The first pass screened for *quality* and produced Squid: real customers, National Grid in
-production, an unpriced cap table, a defensible wedge. Then a measurable flaw surfaced —
-**153 of 153 longlisted companies had already been validated by Y Combinator or by an
-announced funding round.** A funnel built from funding announcements can only return
-companies someone has already agreed with. Squid is an excellent company in an unfashionable
-*sector* whose central *belief* — that AI needs a clean, governed data layer — every
-investor already shares.
-
-The second pass screened for **heresy**: what does this company believe that almost everyone
-qualified to have an opinion believes is wrong? That question produces a different answer.
+An independent audit of the whole pack is in [`09-audit/`](09-audit/) and should be read
+first. Fresh candidates, sourced with YC and tech press banned outright, are in
+[`10-upstream/`](10-upstream/).
 
 | Phase | Deliverable | File |
 |---|---|---|
@@ -37,18 +27,26 @@ qualified to have an opinion believes is wrong? That question produces a differe
 | 6 | **Heresy screen and contrarian candidate set** | [`06-contrarian/HERESY-SCREEN.md`](06-contrarian/HERESY-SCREEN.md) |
 | 6 | **Memo — Frontier Computing (the pick)** | [`06-contrarian/MEMO-FRONTIER-COMPUTING.md`](06-contrarian/MEMO-FRONTIER-COMPUTING.md) |
 | 6 | Source appendix, contrarian pass | [`06-contrarian/SOURCES-CONTRARIAN.md`](06-contrarian/SOURCES-CONTRARIAN.md) |
+| 6 | Heresy screen (superseded) | [`06-contrarian/HERESY-SCREEN.md`](06-contrarian/HERESY-SCREEN.md) |
+| 7 | **What actually made Creandum money** | [`07-fundamentals/WHAT-CREANDUM-ACTUALLY-LIKES.md`](07-fundamentals/WHAT-CREANDUM-ACTUALLY-LIKES.md) |
+| 8 | GitHub sourcing pipeline + method | [`08-github-sourcing/METHOD.md`](08-github-sourcing/METHOD.md) |
+| **9** | **Independent audit — read this first** | [`09-audit/AUDIT-FINDINGS.md`](09-audit/AUDIT-FINDINGS.md) |
+| 9 | Red-team results on all three picks | [`09-audit/RED-TEAM.md`](09-audit/RED-TEAM.md) |
+| 9 | Poppins French registry diligence | [`09-audit/POPPINS-REGISTRY.md`](09-audit/POPPINS-REGISTRY.md) |
+| **10** | **Upstream-sourced candidates (YC and press banned)** | [`10-upstream/UPSTREAM-SOURCING.md`](10-upstream/UPSTREAM-SOURCING.md) |
 
 Original brief: [`00-setup/RESEARCH-PLAN.md`](00-setup/RESEARCH-PLAN.md). Video work out of scope.
 
-## The four findings the pack turns on
+## What this project actually established
 
-1. **The Euro Seed 50 is Creandum's funnel, not their publicity.** They converted 8 of the 50
-   into investments. Pitching a name from that list is disqualifying.
-2. **Cybersecurity, defence, edge AI and biocompute each have zero portfolio companies**
-   across 154 records, despite Creandum publicly arguing for the first three.
-3. **Sourcing from funding announcements guarantees a consensus answer.** 153/153 pre-validated.
-   The fix is to source upstream of any funding event and to score heresy explicitly.
-4. **Frontier Computing has raised $10M and priced nothing.** UK register, read 11 Sep 2026:
-   share capital £1, no allotment filed, and a *sole* PSC holding 75%+ of shares, 75%+ of
-   votes, and the right to appoint and remove directors. A nineteen-year-old solo founder who
-   took $10M without ceding control or a board seat.
+1. **The Euro Seed 50 is Creandum's funnel, not their publicity** — they converted 8 of the 50
+   into investments. Useful, and it holds up.
+2. **What made them money is a pattern, not a sector.** Eleven of their twelve largest outcomes
+   changed the behaviour of ordinary people or small businesses, by collapsing a cost or access
+   barrier ~10x in a market informed people believed was closed. None was a laboratory.
+3. **Sourcing from funding announcements guarantees a consensus answer.** 153 of 153 longlisted
+   companies were pre-validated by YC or a press release — and every finalist came from YC,
+   which makes the "before it's obvious" check I claimed to pass a failure.
+4. **Verification is where picks die, and it is what I kept skipping.** Both withdrawn picks
+   died on checks that cost under an hour: a French registry pull, and reading a company's own
+   homepage arithmetic.
