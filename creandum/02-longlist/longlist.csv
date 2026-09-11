@@ -1,0 +1,154 @@
+company,country,city,lane,stage_known,amount,founders,description,website,channel,source
+Menza,United Kingdom,London,,YC batch Winter 2026,,,The AI data analyst for consumer brands,https://menza.ai/,YC public dataset,https://www.ycombinator.com/companies/menza
+Leeroo,United Kingdom,London,,YC batch Spring 2025,,,Organizational Superintelligence,https://www.leeroo.com/,YC public dataset,https://www.ycombinator.com/companies/leeroo
+Piggy Robotics,United Kingdom,London,,YC batch Fall 2025,,,Humanoid robots that do your chores for the price of an iPhone!,https://piggyrobotics.com,YC public dataset,https://www.ycombinator.com/companies/piggy-robotics
+Autumn,United Kingdom,London,,YC batch Summer 2025,,,Billing infrastructure for AI,https://useautumn.com,YC public dataset,https://www.ycombinator.com/companies/autumn
+Vetnio,Sweden,Stockholm,,YC batch Winter 2025,,,AI Copilot that automates admin work for veterinary professionals,https://vetnio.com/,YC public dataset,https://www.ycombinator.com/companies/vetnio
+Hey Telo,Germany,BY,,YC batch Winter 2025,,,Voice AI for Home Services,https://www.heytelo.com,YC public dataset,https://www.ycombinator.com/companies/hey-telo
+Alice.tech,Denmark,Copenhagen,,YC batch Winter 2025,,,AI-driven exam prep,https://www.alice.tech/,YC public dataset,https://www.ycombinator.com/companies/alice-tech
+Dollyglot,France,Paris,,YC batch Winter 2025,,,Character.AI with real time video avatars,https://www.dollyglot.com/,YC public dataset,https://www.ycombinator.com/companies/dollyglot
+awen,France,Paris,,YC batch Winter 2025,,,awen translates intent into exceptional visuals through conversation,https://www.awen.ai/,YC public dataset,https://www.ycombinator.com/companies/awen
+superglue,Germany,BY,,YC batch Winter 2025,,,"connect, migrate and implement enterprise systems",https://superglue.ai/,YC public dataset,https://www.ycombinator.com/companies/superglue
+Rally,Germany,Berlin,,YC batch Winter 2025,,,Financial OS for Modern Fleets,https://www.getrally.com/,YC public dataset,https://www.ycombinator.com/companies/rally-3
+Cardamon,United Kingdom,London,,YC batch Winter 2025,,,AI compliance co-pilot for regulated financial businesses,https://cardamon.ai/,YC public dataset,https://www.ycombinator.com/companies/cardamon
+finbar,United Kingdom,London,,YC batch Winter 2025,,,The AI investment analyst,https://finbar.com,YC public dataset,https://www.ycombinator.com/companies/finbar
+Macadamia,Belgium,Ghent,,YC batch Winter 2025,,,AI Agents for Complex Engineering Projects,https://macadamialabs.com,YC public dataset,https://www.ycombinator.com/companies/macadamia
+Stillwind,Switzerland,Zürich,,YC batch Winter 2025,,,Electrical Engineering Components Compaion,https://stillwind.ai,YC public dataset,https://www.ycombinator.com/companies/stillwind
+ReJot,Netherlands,Amsterdam,,YC batch Winter 2025,,,We turn complex API integrations into drop‑in full‑stack libraries ,https://rejot.dev,YC public dataset,https://www.ycombinator.com/companies/rejot
+Artificial Societies,United Kingdom,London,,YC batch Winter 2025,,,We build networks of AIs to simulate high-value audiences,https://societies.io,YC public dataset,https://www.ycombinator.com/companies/artificial-societies
+Pinch,Spain,VC,,YC batch Winter 2025,,,AI Voice Translation for live conversations or media,https://startpinch.com,YC public dataset,https://www.ycombinator.com/companies/pinch
+Spott,Belgium,Leuven,,YC batch Winter 2025,,,AI-native ATS/CRM for recruiting firms,https://spott.io,YC public dataset,https://www.ycombinator.com/companies/spott
+Waffle,United Kingdom,London,,YC batch Spring 2025,,,Discover & Build AI Chatbots,https://www.waffle.ai,YC public dataset,https://www.ycombinator.com/companies/waffle
+Bluebook,Sweden,Stockholm,,YC batch Winter 2025,,,AI for accounting,https://getbluebook.com,YC public dataset,https://www.ycombinator.com/companies/bluebook
+Mercura,Germany,BY,,YC batch Winter 2025,,,AI Quote and Order Automation for Distributors & Manufacturers,https://www.mercura.ai,YC public dataset,https://www.ycombinator.com/companies/mercura
+Instinct Space,United Kingdom,London,,YC batch Winter 2025,,,Building lunar landers,https://www.instinct-space.com/,YC public dataset,https://www.ycombinator.com/companies/instinct-space
+SAMMY Labs,United Kingdom,London,,YC batch Winter 2025,,,Computational Law,https://www.sammylabs.com,YC public dataset,https://www.ycombinator.com/companies/sammy-labs
+Vantel,Sweden,Stockholm,,YC batch Winter 2025,,,AI Platform for Commercial Insurance Brokerages,https://vantel.com/,YC public dataset,https://www.ycombinator.com/companies/vantel
+QFEX,United Kingdom,London,,YC batch Spring 2025,,,24/7 Global Stock Exchange,https://qfex.com,YC public dataset,https://www.ycombinator.com/companies/qfex
+Plexe,United Kingdom,London,,YC batch Spring 2025,,,Open-source agents to build predictive ML models from a prompt,https://plexe.ai,YC public dataset,https://www.ycombinator.com/companies/plexe
+nao Labs,France,Paris,,YC batch Spring 2025,,,Open Source Analytics Agent,https://getnao.io/,YC public dataset,https://www.ycombinator.com/companies/nao-labs
+cubic,United Kingdom,London,,YC batch Spring 2025,,,AI-powered code review platform,https://cubic.dev/,YC public dataset,https://www.ycombinator.com/companies/cubic
+HelixDB,United Kingdom,London,,YC batch Spring 2025,,,The fastest & most scalable graph-vector database on the market,https://helix-db.com,YC public dataset,https://www.ycombinator.com/companies/helixdb
+The Robot Learning Company,Germany,BY,,YC batch Spring 2025,,,Tools for the next era of physical automation.,https://www.robot-learning.co/,YC public dataset,https://www.ycombinator.com/companies/the-robot-learning-company
+Clarm,Switzerland,ZH,,YC batch Spring 2025,,,"Build governed AI agents on your own data, without code",https://www.clarm.com,YC public dataset,https://www.ycombinator.com/companies/clarm
+Parsewise,United Kingdom,London,,YC batch Spring 2025,,,"Multi-document processing for your risk teams, AI agents, pipelines",https://parsewise.ai,YC public dataset,https://www.ycombinator.com/companies/parsewise
+Chiron,United Kingdom,London,,YC batch Spring 2025,,,Grammarly for Math ✏️,https://projectchiron.org,YC public dataset,https://www.ycombinator.com/companies/chiron
+Combinely,United Kingdom,London,,YC batch Spring 2025,,,AI coworker for Accountants,https://combinely.ai,YC public dataset,https://www.ycombinator.com/companies/combinely
+Nomi,France,Paris,,YC batch Spring 2025,,,Realtime Sales Copilot,https://www.nomi.so,YC public dataset,https://www.ycombinator.com/companies/nomi
+Crimson,United Kingdom,London,,YC batch Spring 2025,,,The AI Associate for Litigation Lawyers,https://crimson.law,YC public dataset,https://www.ycombinator.com/companies/crimson
+Flott HQ,France,Paris,,YC batch Spring 2025,,,AI-native operating system for vehicle fleet management,https://www.flotthq.com,YC public dataset,https://www.ycombinator.com/companies/flott-hq
+Lucis,France,Paris,,YC batch Spring 2025,,,Function Health for Europe ,https://www.lucis.life,YC public dataset,https://www.ycombinator.com/companies/lucis
+throxy,United Kingdom,London,,YC batch Spring 2025,,,"Vertical AI agents running B2B outbound on autopilot, with human SDRs",https://throxy.com/,YC public dataset,https://www.ycombinator.com/companies/throxy
+NODI Energy,United Kingdom,London,,YC batch Spring 2025,,,Distributed energy infrastructure unlocking grid power to data centers,https://www.nodienergy.com,YC public dataset,https://www.ycombinator.com/companies/nodi-energy
+Vesence,Sweden,Stockholm,,YC batch Spring 2025,,,Cursor for Lawyers. Agentic AI in MS Office.,https://vesence.com,YC public dataset,https://www.ycombinator.com/companies/vesence
+Mesmer,Germany,Berlin,,YC batch Spring 2025,,,The operating system for the 100x Engineering Team,https://mesmer.co,YC public dataset,https://www.ycombinator.com/companies/mesmer
+Probo,France,Paris,,YC batch Spring 2025,,,We help you get compliant while you focus on your business.,https://www.probo.com?utm_source=yc-bookface,YC public dataset,https://www.ycombinator.com/companies/probo
+Moby Analytics,France,Paris,,YC batch Spring 2025,,,AI financial auditors,https://www.mobyanalytics.com/,YC public dataset,https://www.ycombinator.com/companies/moby-analytics
+mlop,United Kingdom,London,,YC batch Spring 2025,,,Experiment tracking for training ML models,https://mlop.ai,YC public dataset,https://www.ycombinator.com/companies/mlop
+Stockline,France,Paris,,YC batch Summer 2025,,,AI-native ERP for food wholesalers,https://stockline.ai,YC public dataset,https://www.ycombinator.com/companies/stockline
+Trace,United Kingdom,London,,YC batch Summer 2025,,,Context-aware orchestration between humans and AI.,https://www.trace.so/,YC public dataset,https://www.ycombinator.com/companies/trace-so
+Comena,Germany,BY,,YC batch Summer 2025,,,AI agents for distributors and manufacturers to automate order entry.,https://comena.ai,YC public dataset,https://www.ycombinator.com/companies/comena
+Motives,United Kingdom,London,,YC batch Summer 2025,,,Consumer focus groups run by AI,https://motives.ai/,YC public dataset,https://www.ycombinator.com/companies/motives
+Finto,Germany,Munich,,YC batch Summer 2025,,,AI accounting for enterprise finance teams,https://www.gofinto.com/,YC public dataset,https://www.ycombinator.com/companies/finto-de
+Minimal AI,Netherlands,Amsterdam,,YC batch Summer 2025,,,AI Agents for E-commerce Customer Support,https://gominimal.ai/,YC public dataset,https://www.ycombinator.com/companies/minimal-ai
+Hera,Germany,Berlin,,YC batch Summer 2025,,,AI Motion Designer,https://hera.video/,YC public dataset,https://www.ycombinator.com/companies/hera-video
+Brickanta,Sweden,Stockholm,,YC batch Fall 2025,,,Agentic AI for Society Builders,https://www.brickanta.com,YC public dataset,https://www.ycombinator.com/companies/brickanta
+Brickwise,United Kingdom,London,,YC batch Fall 2025,,,AI property manager for landlords and estate agents,https://www.brickwiseai.com,YC public dataset,https://www.ycombinator.com/companies/brickwise
+Zavo,United Kingdom,London,,YC batch Fall 2025,,,AI Operating System for Restaurants ,https://zavopay.com,YC public dataset,https://www.ycombinator.com/companies/zavo
+Nexus,Belgium,Brussels,,YC batch Fall 2025,,,We help non-technical teams build AI agents without engineers,https://agent.nexus,YC public dataset,https://www.ycombinator.com/companies/gpt
+Lunavo,Germany,BY,,YC batch Fall 2025,,,Lunavo is the AI assistant for carriers.,https://lunavo.ai,YC public dataset,https://www.ycombinator.com/companies/lunavo
+FinalDose,United Kingdom,Oxford,,YC batch Spring 2026,,,"Programmable DNA drug destroying all cancers, unlocking 80% of targets",https://finaldose.ai/,YC public dataset,https://www.ycombinator.com/companies/finaldose
+Bravi,France,Paris,,YC batch Fall 2025,,,The AI operating system powering home services businesses,https://www.bravi.app/,YC public dataset,https://www.ycombinator.com/companies/bravi
+ComplyDo,Germany,Berlin,,YC batch Fall 2025,,,Global Compliance for Enterprises,https://www.complydo.io/,YC public dataset,https://www.ycombinator.com/companies/complydo
+Codyco,Germany,BY,,YC batch Fall 2025,,,The AI Reservation Team for Hotel Groups,https://www.codyco.ai/en,YC public dataset,https://www.ycombinator.com/companies/codyco
+Frontier Computing,United Kingdom,London,,YC batch Summer 2026,,,Frontier grows scalable biological brains as an ML training substrate,https://frontier.site,YC public dataset,https://www.ycombinator.com/companies/frontier-computing
+Tornyol,France,Paris,,YC batch Fall 2025,,,We build micro-drones that kill mosquitoes. ,https://tornyol.com/,YC public dataset,https://www.ycombinator.com/companies/tornyol
+Prism,United Kingdom,London,,YC batch Spring 2026,,,AI-native recruiting agency,https://tryprism.com/,YC public dataset,https://www.ycombinator.com/companies/tryprism
+Zalos,United Kingdom,London,,YC batch Fall 2025,,,Hire Zalos AI workers to run your finance department,https://www.zalos.ai/,YC public dataset,https://www.ycombinator.com/companies/zalos
+Lua Global Inc,United Kingdom,London,,YC batch Fall 2025,,,The mid-market agent platform,https://heylua.ai/,YC public dataset,https://www.ycombinator.com/companies/lua-global-inc
+Crunched,Norway,Oslo,,YC batch Fall 2025,,,Excel AI analyst for Power Users,https://usecrunched.com/,YC public dataset,https://www.ycombinator.com/companies/crunched
+Specific,Sweden,Stockholm,,YC batch Fall 2025,,,The cloud platform built for coding agents,https://specific.dev,YC public dataset,https://www.ycombinator.com/companies/specific
+Metorial,Austria,Vienna,,YC batch Fall 2025,,,Agentic infrastructure to power AI-native companies.,https://metorial.com,YC public dataset,https://www.ycombinator.com/companies/metorial
+Openroll,Sweden,Stockholm,,YC batch Fall 2025,,,The AI workforce for People and Finance teams,https://www.openroll.com,YC public dataset,https://www.ycombinator.com/companies/openroll
+Mirabelle,France,Paris,,YC batch Winter 2026,,,Your robot chef,https://meetmirabelle.com,YC public dataset,https://www.ycombinator.com/companies/mirabelle
+Milliray,United Kingdom,London,,YC batch Winter 2026,,,Technology to detect and track small drones,https://milliray.com/,YC public dataset,https://www.ycombinator.com/companies/milliray
+Moritz,Norway,Oslo,,YC batch Winter 2026,,,Global AI-native law firm handling legal work with same-day turnaround,http://moritzlegal.com/,YC public dataset,https://www.ycombinator.com/companies/moritz
+Sparkles,United Kingdom,London,,YC batch Winter 2026,,,Make everyone on your team an engineer,https://sparkles.dev,YC public dataset,https://www.ycombinator.com/companies/sparkles
+Stilta,Sweden,Stockholm,,YC batch Winter 2026,,,Agentic AI for intellectual property,https://stilta.com,YC public dataset,https://www.ycombinator.com/companies/stilta
+Seeing Systems,United Kingdom,London,,YC batch Winter 2026,,,Modular AI-Commanded Drones for Defence,https://www.seeing-systems.com,YC public dataset,https://www.ycombinator.com/companies/seeing-systems
+Sitefire,Germany,BY,,YC batch Winter 2026,,,Marketing suite for the agentic web,https://sitefire.ai,YC public dataset,https://www.ycombinator.com/companies/sitefire
+Netter,France,Paris,,YC batch Spring 2026,,,AI native Palantir for mid market.,https://netter.ai,YC public dataset,https://www.ycombinator.com/companies/netter
+Servo7,Netherlands,Amsterdam,,YC batch Winter 2026,,,Container unloading robots for warehouses,https://servo7.com,YC public dataset,https://www.ycombinator.com/companies/servo7
+Balance,United Kingdom,London,,YC batch Winter 2026,,,Full-Stack AI Accounting,https://getbalance.ai,YC public dataset,https://www.ycombinator.com/companies/getbalance
+Squid,United Kingdom,London,,YC batch Winter 2026,,,AI agents for power grid planning  🦑 ,https://squid.energy,YC public dataset,https://www.ycombinator.com/companies/squid
+Inth,United Kingdom,London,,YC batch Spring 2026,,,Monitor and fix product privacy issues before they block growth,https://inth.com,YC public dataset,https://www.ycombinator.com/companies/inth
+Veriad,United Kingdom,London,,YC batch Winter 2026,,,Enterprise marketing agents,https://veriad.com,YC public dataset,https://www.ycombinator.com/companies/veriad
+Zymbly,United Kingdom,London,,YC batch Winter 2026,,,The decision-support layer for aviation ops teams to know what to do…,https://www.zymbly.com,YC public dataset,https://www.ycombinator.com/companies/zymbly
+Condor Energy,France,Paris,,YC batch Winter 2026,,,Software for enterprise energy procurement.,https://www.condor.energy,YC public dataset,https://www.ycombinator.com/companies/condor-energy
+Dayjob,United Kingdom,London,,YC batch Spring 2026,,,AI Scheduling for Short Haul Trucks,https://www.getdayjob.ai,YC public dataset,https://www.ycombinator.com/companies/dayjob
+Tenet Industries,Sweden,Stockholm,,YC batch Spring 2026,,,"Low-cost, mass-producible defense systems",https://www.tenetindustries.com,YC public dataset,https://www.ycombinator.com/companies/tenet-industries
+Elyra,Sweden,Stockholm,,YC batch Spring 2026,,,AI Reservation System for Restaurants ,https://www.elyrasystems.com/,YC public dataset,https://www.ycombinator.com/companies/elyra
+transload,Germany,Munich,,YC batch Spring 2026,,,Measure freight with security cameras,https://www.transload.ai,YC public dataset,https://www.ycombinator.com/companies/transload
+Pairio,Germany,BY,,YC batch Spring 2026,,,AI mobile app that helps factory technicians fix broken machines,https://pairio.com,YC public dataset,https://www.ycombinator.com/companies/pairio
+Complir,Denmark,Copenhagen,,YC batch Spring 2026,,,Vanta for physical products,https://complir.io/,YC public dataset,https://www.ycombinator.com/companies/complir
+Revnu,United Kingdom,Manchester,,YC batch Spring 2026,,,The growth infrastructure for the autonomous business,https://revnu.com,YC public dataset,https://www.ycombinator.com/companies/revnu
+KugelAudio,Germany,Berlin,,YC batch Spring 2026,,,Kugel is an on-prem Voice AI model supporting 30+ languages ,https://kugelaudio.com/en,YC public dataset,https://www.ycombinator.com/companies/kugelaudio
+Audun,Norway,Oslo,,YC batch Summer 2026,,,AI-native debt collection company,https://audun.co,YC public dataset,https://www.ycombinator.com/companies/audun
+Zaplar,Sweden,Stockholm,,YC batch Summer 2026,,,Agentic Hotel Operating System,https://zaplar.com,YC public dataset,https://www.ycombinator.com/companies/zaplar
+Pacific,United Kingdom,London,,YC batch Summer 2026,,,Mass-producing and financing micro data center incredibly quickly.,https://gopacific.ai/,YC public dataset,https://www.ycombinator.com/companies/pacific
+Last Accounting Company,Finland,Helsinki,,YC batch Summer 2026,,,AI-native accounting firm.,https://lastaccountingcompany.com/,YC public dataset,https://www.ycombinator.com/companies/last-accounting-company
+Lamb Labs,United Kingdom,London,,YC batch Summer 2026,,,Lightning fast chips with hardcoded AI models,http://lamb-labs.com,YC public dataset,https://www.ycombinator.com/companies/lamb-labs
+Grip,Switzerland,Zürich,,YC batch Summer 2026,,,Robots for waste manipulation,https://www.griprobotics.ai,YC public dataset,https://www.ycombinator.com/companies/grip
+PRINCEPS,United Kingdom,London,,YC batch Summer 2026,,,AI-native insurance company for the compute economy,https://princeps.dev,YC public dataset,https://www.ycombinator.com/companies/princeps
+Ascii,France,Paris,,YC batch Fall 2026,,,The best cloud VMs for billions of agents,https://box.ascii.dev,YC public dataset,https://www.ycombinator.com/companies/ascii
+Halmos Labs,Sweden,Lund,,YC batch Fall 2026,,,"Maximum information per experiment, minimum experiments per conclusion",https://halmoslabs.com/,YC public dataset,https://www.ycombinator.com/companies/halmos-labs
+Ora Computing,Austria,Vienna,A,Seed,EUR 3.5M,,"Model compression so AI runs on energy-efficient edge hardware, not cloud",https://ora.computing,European tech press (2026),https://tech.eu/2026/06/24/ora-computing-raises-eur35m-to-build-the-efficiency-layer-of-the-ai-stack/
+Embedl,Sweden,Gothenburg,A,Seed/A,EUR 5.5M,,AI efficiency toolchain for embedded systems; Chalmers lineage,https://www.embedl.com,European tech press (2026),https://tech.eu/2025/06/18/embedl-raises-eur55m-to-boost-ai-efficiency-in-embedded-systems/
+Edgify,UK,London,A,Seed+,EUR 7.7M,,"Train/deploy ML on in-store devices, no cloud round-trip",https://edgify.ai,European tech press (2026),https://www.eu-startups.com/2026/08/london-based-edge-ai-infrastructure-company-edgify-raises-e7-7-million-to-combat-retail-losses
+Callosum,UK,London,A,Seed,EUR 85.4M,,Software layer unifying AI models and chips; Atomico-led,,European tech press (2026),https://tech.eu/2026/08/20/callosum-raises-100m-seed-round/
+Flower Labs,UK/Germany,London/Hamburg,A,Seed,n/d,,Federated learning; train models where the data already lives,https://flower.ai,European tech press (2026),https://tech.eu/2026/09/01/cambridge-university-spinout-launches-ai-model-competitive-with-openai-and-anthropic/
+Aylight,Switzerland,Zurich,A,Pre-seed,EUR 4.5M,,Chip-scale multiwavelength lasers for optical interconnect; ETH spinout,,European tech press (2026),https://tech.eu/2026/07/06/aylight-closes-eur45m-pre-seed-round-to-advance-optical-interconnect-technology/
+Creoir,Finland,Oulu,A/B,Seed,~EUR 2M,,Voice AI for defence and mission-critical systems,https://creoir.com,European tech press (2026),https://arcticstartup.com/creoir-raises-seed-funding/
+Chiral,Switzerland,Zurich,A,Seed,USD 12M,,Nanomaterial integration equipment for semiconductor/quantum devices,,European tech press (2026),https://tech.eu/2026/04/14/europes-biggest-seed-rounds-of-q1-2026-top-tech-startups-to-watch/
+CRACI,Finland,Helsinki,B,Pre-seed,EUR 1.4M,,Cyber Resilience Act compliance automation in CI/CD,https://craci.io,European tech press (2026),https://tech.eu/2026/05/19/craci-raises-eur14m-for-eu-cybersecurity-compliance-platform/
+Dawnguard,Netherlands,Amsterdam,B,Pre-seed/Seed,EUR 2.8M,,AI-native security architecture automation,,European tech press (2026),https://www.eu-startups.com/2026/07/dutch-cybersecurity-startup-dawnguard-lands-e2-8-million-for-ai-native-security-architecture-automation/
+8Layers,Spain,Madrid,B,Pre-seed,EUR 2.5M,,Identity security posture + ITDR + NIS2 compliance,,European tech press (2026),https://www.eu-startups.com/2026/07/spanish-cybersecurity-startup-8layers-extends-pre-seed-round-to-e2-5-million-total-funding/
+Bynario,Italy,Milan,B,Pre-seed,EUR 2.1M,,Frontier-AI-driven vulnerability research (found Apple OS flaws),,European tech press (2026),https://www.eu-startups.com/2026/09/milan-based-bynario-raises-e2-1-million-pre-seed-after-ai-research-exposed-serious-apple-vulnerabilities
+Beelzebub,Italy,n/d,B,Seed,EUR 3M,,AI-driven enterprise cyber defence / deception,,European tech press (2026),https://tech.eu/2026/07/27/beelzebub-raises-eur3m-to-strengthen-enterprise-cyber-defence-with-ai/
+Mutable Tactics,UK,London,B,Pre-seed,USD 2.1M,,Defence tech; Seraphim + NSSIF + EF backed,,European tech press (2026),https://tech.eu/2026/03/04/british-defence-tech-outfit-mutable-tactics-raises-over-2m-in-pre-seed-round/
+Stendr,Norway,Oslo,B,Pre-seed,USD 5.4M,,AI-native defence platform,,European tech press (2026),https://tech.eu/2026/04/15/stendr-secures-54m-pre-seed-to-develop-ai-driven-defence-systems/
+Ground A,Germany,n/d,B,Pre-seed,EUR 9M+,,Radar+CV+laser counter-drone effector,,European tech press (2026),https://tech.eu/2026/09/08/ground-a-raises-eur9m-to-bring-laser-based-counter-drone-technology-to-market
+EGIDE,France,Paris,B,Seed,EUR 8M,,Affordable interceptor systems,,European tech press (2026),https://tech.eu/2026/03/23/french-defencetech-egide-raises-eur8m-seed-round-to-build-affordable-interceptor-systems-for-modern-warfare/
+Twin Prime,UK,London,B,Pre-seed,USD 10M,,Multimodal sensor-fusion AI for defence decision-making,,European tech press (2026),https://tech.eu/2026/05/14/twin-prime-lands-10m-pre-seed-to-build-frontier-ai-models-for-defence-and-security/
+Onodrim Industries,Netherlands,Amsterdam,B,Seed,EUR 40M,,Defence + industrial hardware/software/manufacturing platform,,European tech press (2026),https://tech.eu/2026/04/14/europes-biggest-seed-rounds-of-q1-2026-top-tech-startups-to-watch/
+deeplify,Germany,Bochum,B/C,Pre-seed,EUR 2M,,AI for critical-infrastructure inspection and asset integrity,,European tech press (2026),https://www.eu-startups.com/2026/03/bochum-based-deeplify-raises-e2-million-to-bring-critical-infrastructure-inspections-out-of-the-excel-era
+Marble Imaging,Germany,Berlin,B,Seed,EUR 5.3M,,Earth observation satellites,,European tech press (2026),https://www.eu-startups.com/2026/07/10-european-spacetech-startups-ready-for-liftoff/
+Kreios Space,Spain,Lleida,B,Seed,EUR 8M,,Air-breathing electric propulsion for VLEO,,European tech press (2026),https://www.eu-startups.com/2026/07/10-european-spacetech-startups-ready-for-liftoff/
+Orbital Paradigm,Spain,Barcelona,B,Pre-seed,EUR 1.5M,,Reusable re-entry capsules,,European tech press (2026),https://www.eu-startups.com/2026/07/10-european-spacetech-startups-ready-for-liftoff/
+Deep Space Energy,Germany,n/d,B,Pre-seed,EUR 930k,,Lunar surface energy,,European tech press (2026),https://www.eu-startups.com/2026/02/with-europe-seeking-greater-defence-and-space-autonomy-deep-space-energy-secures-e930k-to-advance-lunar-energy-tech/
+Astradyne,Italy,n/d,B,Pre-seed,EUR 2M,,Deployable solar arrays for satellites,,European tech press (2026),https://www.eu-startups.com/2026/07/10-european-spacetech-startups-ready-for-liftoff/
+Interloom,Germany,Munich,C,Seed,EUR 14.2M,,Expert knowledge as durable memory for AI agents,https://interloom.com,European tech press (2026),https://www.eu-startups.com/2026/03/german-startup-interloom-lands-e14-2-million-seed-funding-for-ai-agent-knowledge-infrastructure/
+Cortea,Germany,Berlin,C,Seed,EUR 12M,,AI quality layer for audit firms,https://www.cortea.ai/,European tech press (2026),https://www.eu-startups.com/2026/06/berlin-based-cortea-raises-e12-million-seed-round-to-build-ai-quality-layer-for-audit-firms/
+Cognee,Germany,Berlin,C,Seed,EUR 7.5M,,Structured memory for enterprise AI,https://www.cognee.ai,European tech press (2026),https://www.eu-startups.com/2026/02/german-ai-infrastructure-startup-cognee-lands-e7-5-million-to-scale-enterprise-grade-memory-technology/
+Redpine,Sweden,Stockholm,C,Seed,EUR 6.8M,,Licensed premium data supply for AI agents,,European tech press (2026),https://arcticstartup.com/redpine-raises-e6-8m-seed/
+Velatir,Denmark,Odense,C,Seed,EUR 5M,,Human-in-the-loop governance/control layer for AI actions,https://velatir.com,European tech press (2026),https://arcticstartup.com/velatir-raises-e5-million-in-seed/
+Tower,Germany,Berlin,C,Pre-seed/Seed,EUR 5.5M,,Last-mile platform for data engineers,,European tech press (2026),https://www.eu-startups.com/2026/03/berlin-based-tower-raises-e5-5-million-to-build-the-last-mile-platform-for-data-engineers-in-the-ai-era/
+Blockbrain,Germany,n/d,C,Seed,EUR 17.5M,,Enterprise-grade GenAI agents,,European tech press (2026),https://www.eu-startups.com/2026/02/german-genai-startup-blockbrain-lands-e17-5-million-to-advance-enterprise-grade-ai-agents/
+SolvaPay,Sweden,Stockholm,C,Pre-seed,EUR 2.4M,,Payments infrastructure for agentic commerce,,European tech press (2026),https://www.eu-startups.com/2026/04/stockholms-solvapay-raises-e2-4-million-pre-seed-to-build-payments-infrastructure-for-agentic-commerce/
+telli,Germany,Berlin,C,Seed,EUR 13.1M,,AI for B2C customer operations,,European tech press (2026),https://tech.eu/2026/07/23/telli-secures-15m-seed-to-automate-customer-facing-operations/
+Prolo,UK,London,C,Seed,EUR 4.9M,,AI procurement for SME construction,,European tech press (2026),https://www.eu-startups.com/2026/07/london-based-prolo-secures-e4-9-million-to-bring-ai-powered-procurement-to-sme-construction-firms/
+Delphyr,Netherlands,Amsterdam,C,Pre-seed,EUR 1.75M,,Reduce healthcare admin workload with AI,,European tech press (2026),https://www.eu-startups.com/2026/03/amsterdam-based-delphy-raises-e1-75-million-to-reduce-healthcare-administrative-workloads-with-ai
+Uncovr,France,Paris,C,Seed,EUR 6M,,Surgical video to operative reports and coding,,European tech press (2026),https://www.eu-startups.com/2026/06/french-surgical-ai-startup-uncovr-raises-e6-million-to-turn-surgical-video-into-clinical-records/
+ShanX Medtech,Netherlands,Eindhoven,C,Seed,EUR 15M,,Rapid antimicrobial susceptibility testing,,European tech press (2026),https://tech.eu/2026/04/14/europes-biggest-seed-rounds-of-q1-2026-top-tech-startups-to-watch/
+Capalo AI,Finland,Helsinki,C,Series A,EUR 11M,,Virtual power plant / battery optimisation,,European tech press (2026),https://www.eu-startups.com/2026/08/10-european-gridtech-startups-helping-our-energy-systems-cope
+Axle Energy,UK,London,C,Seed,n/d,,Flexibility platform turning EVs/batteries/heat pumps into grid capacity,,European tech press (2026),https://www.eu-startups.com/2026/08/10-european-gridtech-startups-helping-our-energy-systems-cope
+Companion.energy,Belgium,Ghent,C,Seed,n/d,,Real-time industrial energy procurement and asset management,,European tech press (2026),https://www.eu-startups.com/2026/08/10-european-gridtech-startups-helping-our-energy-systems-cope
+Entrix,Germany,Munich,C,Series A,n/d,,Battery storage + electricity trading + grid flexibility,,European tech press (2026),https://www.eu-startups.com/2026/08/10-european-gridtech-startups-helping-our-energy-systems-cope
+Aisot Technologies,Switzerland,Zurich,C,Seed,EUR 2.13M,,Agentic AI for portfolio management; ETH spin-off,,European tech press (2026),https://www.eu-startups.com/2026/08/eth-zurich-spin-off-aisot-technologies-bags-e2-13-million-to-bring-agentic-ai-to-portfolio-management
+Invisible-Light Labs,Austria,Vienna,A,Pre-seed,EUR 1.5M,,Sub-micron particle identification,,European tech press (2026),https://www.eu-startups.com/2026/06/austrian-deeptech-startup-invisible-light-labs-raises-e1-5-million-to-identify-sub-micron-particles
+Mirai Robotics,Italy,n/d,B,Pre-seed,EUR 3.6M,,Autonomous maritime systems,,European tech press (2026),https://www.eu-startups.com/2026/03/italys-ai-robotics-startup-mirai-robotics-raises-e3-6-million-to-build-autonomous-systems-for-maritime-operations/
+Allonic,Hungary,Budapest,B,Pre-seed,EUR 6M,,Robotic body manufacturing platform; OpenAI-backed,,European tech press (2026),https://www.eu-startups.com/2026/02/with-openai-backing-allonic-raises-e6-million-for-robotic-body-manufacturing-platform/
+Hyperion Robotics,Finland,Espoo,B,Seed,EUR 6.4M,,Physical AI for European infrastructure / 3D-printed concrete,,European tech press (2026),https://www.eu-startups.com/2026/07/espoo-based-hyperion-robotics-raises-e6-4-million-to-bring-physical-ai-to-european-infrastructure/
+Flox,Sweden,Stockholm,C,Pre-seed,n/d,,Robotics + AI for human-wildlife interaction; KTH spinout,,European tech press (2026),https://tech.eu/
+Reson8,Netherlands,Amsterdam,A,Seed,EUR 5M,,European speech AI infrastructure,,European tech press (2026),https://www.eu-startups.com/2026/03/amsterdams-reson8-raises-e5-million-to-build-speech-ai-infrastructure-that-resonates-across-europe/
+OpsMill,France,Paris,C,Seed,EUR 11.9M,,Infrastructure data readiness for AI/automation,,European tech press (2026),https://www.eu-startups.com/2026/05/frances-opsmill-raises-e11-9-million-to-help-enterprises-prepare-infrastructure-data-for-ai-and-automation/
