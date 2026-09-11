@@ -1,0 +1,155 @@
+name,slug,state,exited,types,founded,invested,partner,founders,website,excerpt
+EquiLibre,equilibre,Active,False,AI|Fintech,2022-01-01,2026-07-01,Staffan Helgesson,"Martin Schmid, Matej Moravcik, Rudolf Kadlec",https://equilibre.ai/,AI trading using reinforcement learning
+Causa Prima,causa-prima,Active,False,AI|Fintech,2026-01-01,2026-06-16,Simon Schmincke,"Maex Ament, Henrik Gebbing, Philip Stanislaus ",https://causaprima.ai/,The agent-to-agent network for B2B finance
+PAVE Space,pave-space,Active,False,Other,2024-11-01,2026-03-25,Peter Specht,"Julie Böhning, Jérémy Marciacq",https://pave.space/,The logistics backbone of the space economy
+Hosted·ai,hosted-ai,Active,False,AI,2024-08-01,2026-03-19,Carl Fritjofsson,"Ditlev Bredahl, Julian Chesterfield, Naren Shankar, James Withall",https://hosted.ai/,GPU virtualisation for neocloud service providers
+Olix,olix,Active,False,AI,2024-03-01,2026-02-11,Peter Specht,James Dacombe,https://olix.com/,Building the infrastructure for Frontier AI
+Black Forest Labs,black-forest-labs,Active,False,AI,2024-03-01,2025-12-01,Peter Specht,"Robin Rombach, Patrick Esser, Sumith Kulal, and Andreas Blattmann",https://bfl.ai/,World-leading AI text-to-image generation
+Cerrion,cerrion,Active,False,AI,2022-01-01,2025-11-25,Hanel Baveja,Karim Saleh; Nikolay Kobyshev,https://www.cerrion.com/,AI video agents built for manufacturing 
+GetVocal,getvocal,Active,False,AI,2023-12-01,2025-11-18,Hanel Baveja,"Roy Moussa, Antonin Bertin",https://www.getvocal.ai/,The AI platform for human-AI workforces
+Midas,midas,Active,False,Fintech,2024-07-01,2025-11-01,Simon Schmincke,"Dennis Dinkelmeyer, Fabrice Grinda, Romain Bourgois",https://midas.app/,I nstitutional-grade investment products onchain
+Vesence,vesence,Active,False,AI,2025-01-01,2025-10-28,Staffan Helgesson,"Henrik Hansson, Ludvig Swanstrom",https://vesence.com/,Cursor for Lawyers
+Jack & Jill,jack-and-jill,Active,False,AI,2025-04-01,2025-10-16,Peter Specht,"Matthew Wilson, Saaras Mehan",https://jackandjill.ai/,The AI super-recruiters
+Ares Intelligence,ares,Active,False,AI,2023-06-01,2025-09-24,,"Matt Falconer, Alfie Ranstead",https://aresintelligence.ai/,Create AI agents that perform any task
+Conduct,conduct,Active,False,AI,2024-01-01,2025-09-18,Peter Specht,"Jan-Philipp Haas, Philipp Hoefer, Henry Thompson",https://conduct.ai/,AI to modernise legacy ERP at scale
+Foresight,foresight,Active,False,Other|AI,2021-01-01,2025-09-12,Hanel Baveja,"Igor Shyfrin, Atif Ansar,",https://www.foresight.works/,Turn construction schedules into strategic decision-making
+Maisa,maisa,Active,False,AI,2023-12-01,2025-08-28,Peter Specht,"David Villalon, Manuel Romero",https://maisa.ai/,Reliable AI Agents for Enterprises
+Sibill,sibill,Active,False,Fintech,2021-10-01,2025-06-26,Johan Brenner,"Mattia Montepara, Lorenzo Liguori, Dario Prencipe",https://sibill.com/,The all-in-one accounting platform for Italian SMEs
+Superscale,superscale,Active,False,AI,2024-12-02,2025-06-18,Fredrik Cassel,"Patrick Häde, Magnus Langanke, Sebastian Hader",https://www.superscale.ai/,The AI CMO
+Junction,junction,Active,False,AI|Health,2021-03-01,2025-03-11,Hanel Baveja; Fredrik Cassel,Maitham Dib,https://www.junction.com/,Data-driven infrastructure for patient-centered healthcare
+Lovable,lovable,Active,False,AI|Consumer,2024-11-21,2025-02-25,Fredrik Cassel,Anton Osika and Fabian Hedin,https://lovable.dev/,The world's first AI full stack software engineer
+Capi Money,capi-money,Active,False,Fintech,2023-06-01,2025-02-18,Simon Schmincke,"Mitch Riley, Scott Liddle, Tom Watson",https://capimoney.com/,Unlocking global trade for emerging markets
+Sereact,sereact,Active,False,AI|Other,2021-01-01,2025-01-20,Johan Brenner,"Ralf Gulde, Marc Tuscher",https://sereact.ai/,Embodied AI for robots
+nexos.ai,nexos-ai,Active,False,AI|SaaS,2024-01-01,2025-01-17,Carl Fritjofsson,"Tomas Okmanas,  Eimantas Sabaliauskas",https://nexos.ai/,AI orchestration platform  
+Boardy,boardy,Active,False,AI|Consumer,2024-03-01,2025-01-14,Simon Schmincke; Hanel Baveja,Andrew D'Souza,https://www.boardy.ai/,The AI Superconnector
+Kurrent,kurrent,Active,False,Other|AI,2019-01-01,2024-12-18,Carl Fritjofsson,Kirk Dunn,https://www.kurrent.io/,Transforming data into context-rich insights
+Appcharge,appcharge,Active,False,Other,2022-04-04,2024-11-25,Carl Fritjofsson,"Maor Sason, Roei Barassi",https://appcharge.com/,D2C platform for mobile game publishers
+terralayr,terralayr,Active,False,Climate,2023-05-01,2024-10-18,Johan Brenner,"Philipp Man, Ludwig Wurlitzer",https://www.trlyr.com/,Energy flexibility services on demand
+Rillet,rillet,Active,False,Fintech,2021-01-01,2024-07-29,Peter Specht,"Nicolas Kopp, Stelios Modes",https://rillet.com/,Automation-first accounting software
+doinstruct,doinstruct,Active,False,SaaS,2021-01-01,2024-07-16,Simon Schmincke,"Charlotte Rothert, Daniel Marinkovic, Thorsten Gross, Mona Feder",https://www.doinstruct.com/,Leading platform for frontline worker training
+Visibly,visibly,Active,False,SaaS,2021-06-01,2024-06-10,Hanel Baveja,Kane St Quintin,https://www.visiblyhq.com/,Better training for those who build our world
+plancraft,plancraft,Active,False,SaaS,2020-01-01,2024-06-05,Staffan Helgesson,"Julian Wiedenhaus, Alexander Noll, Richard Keil",https://plancraft.com/,Digitizing the craft industries
+H Company,h-company,Active,False,SaaS|AI,2024-05-01,2024-05-21,Carl Fritjofsson,"Charles Kantor, Laurent Sifre",https://www.hcompany.ai/,The next frontier of generative AI
+Codesphere,codesphere,Active,False,SaaS|AI,2020-01-01,2024-05-17,Carl Fritjofsson,"Elias Schneider, Jonas Zipprick and Roman Frolov",https://codesphere.com/,Deploy and scale the cloud
+Embat,embat,Active,False,Fintech,2022-01-04,2024-02-14,Peter Specht,"Antonio Berga, Carlos Serrano, Tomás Gil",https://www.embat.io/,Treasury management for the mid-market
+atla,atla,Past,True,SaaS|AI,2023-01-01,2023-12-07,,"Maurice Berger, Roman Engeler",https://www.atla-ai.com/,Building safe AI systems
+Lindus Health,lindus-health,Active,False,Health,2021-03-12,2023-08-19,Fredrik Cassel,"Meri Beckwith, Michael Young, Nik Haldimann",https://www.lindushealth.com/,End-to-end clinical trials for healthtech & biotech pioneers
+Unitary AI,unitary-ai,Active,False,SaaS|AI,2019-06-07,2023-07-20,Staffan Helgesson,"Sasha Haco, James Thewlis",https://www.unitary.ai/,AI safety layer for online video content 
+Kosmik,kosmik,Active,False,Consumer,2019-10-11,2023-06-01,Hanel Baveja,"Paul Rony, Christophe Van Deputte ",https://www.kosmik.app/,Visual canvas for knowledge management
+Prewave,prewave,Active,False,SaaS|AI,2017-01-01,2023-05-24,,"Harald Nitschinger, Lisa Smith",https://www.prewave.com/,AI supply chain risk intelligence
+Augustus,ivy,Active,False,Fintech,2022-03-10,2023-05-11,Simon Schmincke,"Ferdinand Dabitz, Peter Lieck, Simon Wimmer, Joshua Becker",https://www.getivy.io/,Money clearing for the AI era.
+Cast AI,cast-ai,Active,False,SaaS|AI,2019-01-01,2023-01-01,Carl Fritjofsson,Yuri Frayman,https://cast.ai/,DevOps automation platform
+Enode,enode,Active,False,Climate,2020-01-01,2022-10-13,,"Henrik Langeland, Thorvald Thorsnes, Nikolai Heum",https://enode.com/,Infrastructure for green energy apps
+Procuros,procuros,Active,False,SaaS,2021-01-01,2022-09-16,Peter Specht,"Patrick Thelen, Benjamin Wulff",https://procuros.io/,Automation of B2B transactions
+Twirl,twirl,Active,False,SaaS,2022-01-14,2022-09-08,,"Eric Hansander, Rebecka Storm",https://twirldata.com/,Allowing teams to build data products faster
+Scarlet,scarlet,Active,False,Health,2021-12-03,2022-08-19,Fredrik Cassel,"James Dewar, Jamie Cox",https://www.scarletcomply.com/,Certification for medical software
+Better Stack,better-stack,Active,False,SaaS,2021-01-01,2022-07-01,Carl Fritjofsson,"Juraj Masar, Veronika Kolejak ",https://betterstack.com/,See inside any tech stack and resolve any incident
+Fuse Energy,fuse,Active,False,Climate,2022-01-01,2022-05-20,Fredrik Cassel,"Alan Chang, Charles Orr",https://www.fuseenergy.com/,Commission-free electricity for everyone
+Modal,modal,Active,False,Other|AI,2021-01-06,2022-05-05,Fredrik Cassel,Erik Bernhardsson,https://modal.com/,High-performance AI infrastructure that developers love
+Project Eaden,project-eaden,Active,False,Consumer|Climate,2021-01-01,2022-05-01,Carl Fritjofsson,"Jan Wilmking, Hubertus Bessau, David Schmelzeisen",https://www.projecteaden.com/,Pioneering technology platform for sustainable food
+Planhat,planhat,Active,False,SaaS,2015-01-01,2022-05-01,Carl Fritjofsson,"Kaveh Rostampor, Niklas Skog",https://www.planhat.com/,Manage your customers better
+Leapsome,leapsome,Active,False,SaaS,2016-01-01,2022-03-17,Peter Specht,"Jenny Podewils, Kajetan von Armansperg",https://www.leapsome.com/,Optimising your people management & engagement
+Lunar-X,lunar-x,Active,False,Other,2021-01-07,2022-03-10,Simon Schmincke,Lucas Kollmann,http://lunar-x.com/,Media company for digital-first content brands
+Tola,tola,Active,False,Other,2022-03-10,2022-03-10,Johan Brenner,"Alen Cvisic, Guillaume Simard",https://www.tolahq.com/,The tool for businesses to pay and get paid
+Packfleet,packfleet,Past,True,Climate,2021-03-11,2022-03-10,,"Tristan Thomas, Hugo Cornejo, Josh Garnham",https://packfleet.com/,Next generation green delivery service
+Monta,monta,Active,False,Climate,2020-01-01,2022-01-20,Staffan Helgesson,"Casper Rasmussen, Anders Pedersen",https://monta.com/,EV charging software
+Gilion (formerly ArK),gilion,Active,False,Fintech,2021-01-01,2022-01-08,Johan Brenner,"Oliver Hildebrandt, Axel Bruzelius, Henrik Landgren",https://www.gilion.com/,Precision finance company
+Passionfroot,passionfroot,Active,False,SaaS,2021-01-08,2022-01-01,,"Jennifer Phan, Jens Mannanal ",https://www.passionfroot.me/,Where creators do business
+Timberhub,timberhub,Active,False,Other,2022-01-01,2022-01-01,Peter Specht,"Ion Sergis, Tommy Androutselis, Giannis Adroutselis, Dimitris Pagkratis",https://www.timberhub.com/,Digital marketplace for timber trading
+Lokalise,lokalise,Active,False,SaaS,2017-02-10,2021-12-17,Peter Specht,"Nick Ustinov, Petr Antropov",,Localization and translation software
+Navan,navan,Active,True,Other,2015-01-01,2021-12-17,Simon Schmincke,"Ariel Cohen, Ilan Twig",https://navan.com/de,All-in-one online travel management solution
+Topi,topi,Active,True,Fintech,2021-01-01,2021-11-18,Simon Schmincke,"Charlotte Pallua, Estelle Merle",https://www.topi.eu/en,Hardware as a subscription
+Alokai (formerly Vue Storefront),alokai,Active,False,SaaS,2017-04-14,2021-10-15,Peter Specht,"Patrik Friday, Bart Roszkowski",https://alokai.com/,Frontend platform for headless commerce
+Gopuff,gopuff,Active,False,Consumer,2013-10-01,2021-08-01,Carl Fritjofsson,Rafael Ilishayev,https://www.gopuff.com/,"Groceries, home essentials & more delivered instantly"
+Osu,osu,Past,True,Fintech,2015-07-16,2021-07-15,Johan Brenner,"Noam Nevo, Daniel Scott, Alan Zion",,Payments management for SMEs
+Abacum,abacum,Active,False,SaaS|Fintech,2020-01-01,2021-04-16,Peter Specht,"Jorge Lluch, Julio Martinez",https://www.abacum.io/,Financial planning for mid-market companies
+craft,craft,Active,False,Consumer,2019-01-01,2021-03-18,Fredrik Cassel,Balint Orosz,https://www.craft.do/,Next generation of documents
+Leap,leap,Active,False,Consumer,2020-12-16,2021-03-18,Fredrik Cassel,"Caroline Ingeborn, Vishal Kapur",,Creating meaningful social connections
+SEON,seon,Active,False,SaaS,2016-11-17,2021-03-18,Simon Schmincke,"Tamas Kadar, Bence Jendruszak",https://seon.io/,Uncover fraud patterns
+Bucket,bucket,Active,False,SaaS,2021-01-01,2021-01-01,Carl Fritjofsson,Rasmus Makwarth,https://bucket.co/,The feature company
+Dija,dija,Past,True,Consumer,2020-11-05,2020-12-17,Carl Fritjofsson,"Alberto Menolascina, Yusuf Saban",,Instant groceries
+lemon.markets,lemon-markets,Active,True,Fintech,2020-06-11,2020-12-10,Simon Schmincke,Maximilian Linden,https://www.lemon.markets/,The brokerage infrastructure for developers
+Safety Wing,safety-wing,Active,False,Fintech,2017-01-01,2020-12-01,Carl Fritjofsson,"Sondre Rasch, Hans Kjellby, Sarah Beyahte Sandnes",https://safetywing.com/,Providing cross-border benefits for remote employees
+Kive,kive,Active,False,SaaS|AI,2020-01-01,2020-11-05,Fredrik Cassel,Olof Lindh,https://www.kive.ai/,AI-first digital asset management platform for creators
+Magmatic Games,magmatic-games,Past,True,Consumer,2020-01-08,2020-07-29,Daniel Blomquist,"Florian Stronk, Florian Steinhoff",,Leading casual gaming studio
+Meditopia,meditopia,Active,False,Consumer,2016-01-01,2020-07-01,Carl Fritjofsson,"Fatih Mustafa Çelebi, Berk Yılmaz, Ali Murat Ceylan",https://meditopia.com/en/,Daily support for your mental health
+swan,swan,Active,False,Fintech,2018-01-11,2020-05-15,Simon Schmincke,"Nicolas Benady, Nicolas Saison, Mathieu Breton",https://www.swan.io/,Banking-as-a-Service platform
+Amie,amie,Active,False,Consumer,2020-01-01,2020-03-06,Peter Specht,Dennis Mueller,https://www.amie.so/,Disrupting the productivity stack
+Twaice,twaice,Active,False,Climate|AI,2018-01-01,2020-03-03,Peter Specht,"Michael Baumann, Stephan Rohr",https://www.twaice.com/,Leading battery analytics AI software
+Laka,laka,Active,False,Fintech,2017-01-01,2020-01-01,Carl Fritjofsson,"Tobias Taupitz, Jens Hartwig, Ben Allen",https://laka.co,Collective insurance
+Stockeld Dreamery,stockeld-dreamery,Active,False,Consumer,2019-01-01,2020-01-01,Carl Fritjofsson,"Sorosh Tavakoli, Anja Leissner",https://www.stockeld.com/,The world's most ambitious cheese
+Cake,cake,Past,True,Climate,2016-01-01,2019-09-12,Staffan Helgesson,Stefan Ytterborn,,Premium electric motorbikes and mopeds
+Trade Republic,trade-republic,Active,False,Fintech,2016-01-07,2019-08-09,Johan Brenner,"Christian Hecker, Thomas Pischke, Marco Cancellieri",https://traderepublic.com/,Mobile-first commission-free savings platform
+Shapr3D,shapr3d,Active,False,SaaS,2015-01-01,2019-08-09,Fredrik Cassel,István Csanády,https://www.shapr3d.com/,Next-gen CAD for any platform
+CarOnSale,car-on-sale,Active,False,Other,2018-01-11,2019-06-14,Peter Specht,Tom Krüger,https://www.caronsale.com/,Digital platform facilitating B2B automotive trades
+Bolt,bolt,Active,False,Consumer,2013-01-01,2019-06-06,Staffan Helgesson,"Markus Villig, Martin Villig, Oliver Leisalu",https://bolt.eu/,All-in-one mobility app
+REKKI,rekki,Active,False,Other,2016-01-01,2019-06-06,Simon Schmincke,"Noam Givon, Orat Benyamini",https://rekki.com/,Restaurant supplies managed by chefs
+Klaus,klaus,Past,True,Other,2018-05-17,2019-06-06,Staffan Helgesson,"Martin Köiva, Kair Käsper",https://www.klausapp.com/,Customer Service Quality Management Platform
+Vay,vay,Active,False,Other,2018-01-11,2019-05-16,Simon Schmincke,"Thomas von der Ohe, Bogdan Djukic, Fabrizio Ugo Scelsi",https://vay.io/,Teledrive-first approach to autonomous driving
+yulife,yulife,Active,False,Fintech,2016-01-01,2019-05-11,Carl Fritjofsson,"Sammy Rubin, Sam Fromson, Josh Hart, Jonathan Roomer, Jaco Oosthuizen",https://yulife.com/,Insurance that inspires life
+Honest Food Company,honest-food-company,Past,True,Consumer,2017-07-14,2019-04-18,Simon Schmincke,"Sebastian Klein, Robin Steps",,Building the future of online food delivery
+Voi,voi,Active,False,Consumer,2018-05-11,2019-02-07,Johan Brenner,"Fredrik Hjelm, Adam Jafer, Douglas Stark, Filip Lindvall, Johan Pietilä, Keith Richman",,E-scooters and e-bikes for hire
+pipe,pipe,Active,False,Fintech,2019-01-01,2019-01-01,Carl Fritjofsson,"Harry Hurst, Josh Mangel, Zain Allarakhia",https://pipe.com/,Transforming recurring revenue into up-front capital
+Toit,toit,Active,False,SaaS,2018-01-01,2019-01-01,Fredrik Cassel,"Kasper Lund, Lars Bak",https://toit.io/,Software platform for IoT
+cargo.one,cargo-one,Active,False,Other,2017-01-01,2018-12-06,Peter Specht; Simon Schmincke,"Mike Röttgers, Moritz Claussen, Oliver Neumann",https://www.cargo.one/,Digital platform for freight forwarders
+Factorial,factorial,Active,False,SaaS,2016-01-01,2018-08-10,Peter Specht; Simon Schmincke,"Jordi Romero, Bernat Farrero, Pau Ramon",https://factorialhr.co.uk/,HR software for SMEs
+FirstVet,first-vet,Active,False,Consumer,2015-01-08,2018-07-05,Staffan Helgesson,"David Prien, Joakim Widig, Lars-Martin Norviit, Per Victor",https://firstvet.com/,The digital veterinary clinic
+Mavenoid,mavenoid,Active,False,SaaS,2016-01-07,2018-07-05,Staffan Helgesson,"Shahan Lilja, Gintautas Miliauskas",https://www.mavenoid.com/,Support platform for consumer-facing hardware companies
+Billie,billie,Active,False,Fintech,2016-01-01,2018-06-14,Simon Schmincke,"Matthias Knecht, Christian Grobe, Aiga Senftleben",https://www.billie.io/,Revolutionizing SME financing
+Ready (formerly Argent),argent,Active,False,Fintech,2017-01-11,2018-02-02,Johan Brenner,"Itamar Lesuisse, Gerlad Goldstein",https://www.ready.co/,Ethereum wallet for DeFi and NFTs
+Mixmax,mixmax,Active,False,SaaS,2014-01-01,2018-01-01,Carl Fritjofsson,"Olof Mathé, Brad Vogel, Chanpory Rith ",https://www.mixmax.com/,Sales engagement & prospecting platform for Gmail
+unitQ,unitq,Active,False,SaaS,2019-01-01,2018-01-01,Carl Fritjofsson,"Christian Wiklund, Niklas Lindstrom",https://www.unitq.com/,Understand your users in real time
+Careship,careship,Past,True,Other,2015-01-01,2018-01-01,Fredrik Cassel,"Antonia Albert, Nikolaus Albert",,Online marketplace for elderly care services
+Tide,tide,Active,False,Fintech,2016-01-01,2017-06-15,Simon Schmincke,George Bevis,https://www.tide.co/,Mobile-first business banking
+BLAST,blast,Active,False,Other,2016-01-13,2017-06-15,Simon Schmincke,Robbie Douek,https://blastpremier.com/,Global esports media network
+elastic,elastic,Active,False,SaaS,2012-07-01,2017-06-01,Daniel Blomquist,Ashutosh Kulkarni,https://www.elastic.co/,The leading platform for search-powered solutions
+Taxfix,taxfix,Active,False,Fintech,2016-01-14,2017-02-16,Simon Schmincke,"Mathis Bühi, Lino Teuteberg",http://www.taxfix.de,Income tax declaration on the go
+Favro,favro,Active,False,SaaS,2017-07-14,2017-01-05,Daniel Blomquist,"Patric Palm, Hans Dahlström, Erik Olofsson",https://www.favro.com/,Agile collaborative planning app for SaaS & Games
+Clustree,clustree,Past,True,SaaS,2014-01-01,2017-01-05,Carl Fritjofsson,Bénédicte de Raphélis Soissan,,Talent management intelligence solution
+8fit,8fit,Past,True,Consumer,2015-01-01,2017-01-01,Staffan Helgesson,"Pablo Villalba, Pedro Solá",,Tailored workout and meal plans
+Bokio,bokio,Past,True,Fintech,2011-01-20,2017-01-01,Johan Brenner,"Viktor Stensson, Mikael Eliasson, Emma Rozada och Joel Rozada",,Free automated accounting for SMEs
+Syft,syft,Past,True,Other,2015-01-15,2017-01-01,Johan Brenner,"Novo Abakare, Jack Beaman",,The future of flexible staffing
+Pleo,pleo,Active,False,Fintech|SaaS,2015-01-01,2016-12-16,Johan Brenner,"Jeppe Rindom, Niccolo Perra",https://www.pleo.io/de,"Combining expenses with smart, beautiful software"
+Kry,kry,Active,False,Health,2014-05-01,2016-08-19,Fredrik Cassel,"Johannes Schildt, Fredrik Jung Abbou, Josefine Landgård, Joachim Hedenius",https://kry.health/,Digital-first healthcare provider
+KNL,knl-networks,Past,True,Other,2011-01-01,2016-08-18,Staffan Helgesson,"Toni Lindén, Matti Raustia, Teemu Vanninen",,Providing internet anywhere
+Comtravo,comtravo,Past,True,Other,2015-01-01,2016-06-16,Simon Schmincke,"Michael Riegel, Janick Wagner",,Intelligent business travel management
+Klarna,klarna,Active,False,Fintech,2005-01-01,2016-05-13,Johan Brenner,"Sebastian Siemiatkowski, Viktor Jacobsson, Niklas Adalberth, Evgenii Kondratev",https://www.klarna.com/de/?grs=https%3A%2F%2Fwww.klarna.com%2F&grr=empty,Making online shopping easy and hassle-free
+Cornershop,cornershop,Past,True,Consumer,2015-01-01,2016-04-01,Carl Fritjofsson,"Oskar Hjertonsson, Juan Pablo Cuevas, Daniel Undurraga",https://cornershopapp.com/en-us/,Groceries delivered to your doorstep
+Distribusion,distribusion,Active,False,Other,2012-01-01,2016-01-01,Staffan Helgesson,"Julian Hauck, Johannes Thunert",https://distribusion.com/,Access to ground transportation worldwide
+Kahoot!,kahoot,Past,True,Consumer,2011-01-01,2015-10-16,Fredrik Cassel,Eilert Hanoa,https://kahoot.com/,A global leading learning platform
+Resolution Games,resolution-games,Active,False,Consumer,2015-01-01,2015-08-14,Daniel Blomquist,"Tommy Palm, Martin Vilcans, Paul Brady",https://www.resolutiongames.com/,Immersive VR and AR games experiences
+Depop,depop,Past,True,Consumer,2012-01-04,2015-07-24,Fredrik Cassel,Maria Raga,https://www.depop.com/,Mobile fashion marketplace
+Futureplay,futureplay,Past,True,Consumer,2015-01-01,2015-04-16,Daniel Blomquist,"Jami Laes, Arttu Maki, Kai Auvinen, Mika Rahko",,Pioneering view-to-play games
+Virta Health,virta,Active,False,Health,2015-01-08,2015-01-01,Fredrik Cassel,"Sami Inkinen, Steven Phinney",https://www.virtahealth.com/,On a mission to reverse type 2 diabetes in 100 million people
+Peak,peak,Past,True,Consumer,2012-01-01,2015-01-01,Daniel Blomquist,"Itamar Lesuisse, Sagi Shorrer, Gerald Goldstein, Xavier Louis",https://www.peak.net/,Mobile-first brain training app
+Opbeat,opbeat,Past,True,SaaS,2012-01-13,2015-01-01,Daniel Blomquist,"Rasmus Makwarth, Ron Cohen",,Javascript application performance management
+Neo4J,neo4j,Active,False,SaaS,2006-01-06,2014-11-14,Johan Brenner,"Emil Eifrem, Johan Svensson, Peter Neubauer",,Worlds leading graph database
+Planday,planday,Past,True,SaaS,2006-01-01,2014-04-11,Johan Brenner,Christian Brøndum,,Employee scheduling and communication made simple
+Epidemic Sound,epidemic-sound,Active,False,Other,2009-01-01,2014-04-10,Staffan Helgesson,"Oscar Höglund, Peer Åström, Jan Zachrisson, David Stenmarck, Hjalmar Winbladh",,Restriction free music for video creators
+Instabridge,instabridge,Past,True,Consumer,2012-01-01,2014-01-01,Johan Brenner,"Niklas Agevik, Erik Tigerholm",https://instabridge.com/,Crowdsourced free wifi for smartphones
+Playraven,playraven,Past,True,Consumer,2013-01-01,2014-01-01,Daniel Blomquist,"Lasse Seppänen, Jarkko Kainulainen, Kalle Marjola, Teemu Haila",,Strategy games for touch screens
+Small Giant Games,small-giant-games,Past,True,Consumer,2013-01-01,2014-01-01,Daniel Blomquist,"Timo Soininen, Markus Halttunen, Otto Nieminen, Ilkka Juopperi, Tommi Vallisto",,Leading mobile RPG-gaming studio
+Listrunner,listrunner,Past,True,Health,2011-01-20,2014-01-01,Johan Brenner,"Dominic Savoie, Jeeshan Chowdhury, Trever Chan",,Helping medical teams get more done with less effort
+Hansoft,hansoft,Past,True,Other,2005-01-01,2014-01-01,Daniel Blomquist,"Patric Palm, Hans Dahlström, Erik Olofsson",,Agile planning tool for enterprises
+Omniata,omniata,Past,True,SaaS,2011-01-05,2014-01-01,Daniel Blomquist,"Alex Arias, Michael Thompson, Troy Thompson",,Customer data platform
+Tictail,tictail,Past,True,Other,2011-01-05,2013-12-20,Johan Brenner,"Carl Waldekranz Rivera, Birk Nilsson, Kaj Drobin, Siavash Ghorbani",,Helping anyone with great products sell online
+Autobutler,autobutler,Past,True,Consumer,2010-01-01,2013-08-17,Fredrik Cassel,"Christian Legêne, Peter-Michael Zigler",,The best way find a mechanic for your car
+Xeneta,xeneta,Active,False,SaaS,2012-01-01,2013-01-10,Fredrik Cassel,"Patrik Berglund, Thomas Sørbo ",https://www.xeneta.com/,Global leader in ocean and air freight rate analytics
+Vivino,vivino,Active,False,Consumer,2011-01-14,2012-12-01,Johan Brenner,"Heini Zachariassen, Theis Søndergaard",https://www.vivino.com,World's largest wine marketplace
+JustBook,justbook,Past,True,Consumer,2011-01-01,2012-10-18,Staffan Helgesson,"Florian Waldmann, Ognjen Zeric, Sebastian Fallert, Stefan Menden",,First-class hotels at last-minute prices
+Nonstop Games,nonstop-games,Past,True,Consumer,2011-01-01,2012-07-12,Daniel Blomquist,"Juha Paananen, Henric Suuronen, Teemu Ikonen, Henrik Karlström",,Singaporean-Finnish gaming company
+13th Lab,13th-lab,Past,True,Other,2009-01-01,2012-06-22,Fredrik Cassel,"Oskar Linde, Anders Bond, Petter Ivmark, Johan Gertell",,Pioneer in computer vision for mobile handsets
+iZettle,izettle,Past,True,Fintech,2010-01-01,2011-10-14,Johan Brenner,"Jacob de Geer, Magnus Nilsson",https://www.zettle.com,Mobile payments and point-of-sale solutions
+Wrapp,wrapp,Past,True,Consumer,2011-01-01,2011-05-01,Carl Fritjofsson,"Hjalmar Winbladh, Carl Fritjofsson, Andreas Ehn, Aage Reerslev, Leo Giertz, Magnus Hult",,Rewarding purchases and customer loyalty
+Linas Matkasse,linas-matkasse,Past,True,Consumer,2008-01-01,2011-01-01,Johan Brenner,Carolina Gebäck,,Delivery service for a well-stocked bag of groceries
+itslearning,itslearning,Past,True,SaaS,2001-01-18,2010-05-14,Staffan Helgesson,Helge Hannisdal,,Leaning Management Systems
+Spotify,spotify,Past,True,Consumer,2006-01-01,2008-07-23,Fredrik Cassel,"Daniel Ek, Martin Lorentzon",https://www.spotify.com/,The world's leading digital music service
+Videoplaza,videoplaza,Past,True,Other,2007-01-01,2008-06-05,Fredrik Cassel,"Alfred Ruth, Dante Buhay, Sorosh Tavakoli",,European leader of ad serving technology for online video
+IPtronics,iptronics,Past,True,Other,2003-01-01,2008-01-01,,"Niels Finseth, Steen Bak Christensen, Eivind Johansen",,Leader in fabless semiconductors
+Xtract,xtract,Past,True,SaaS,2005-01-06,2008-01-01,Staffan Helgesson,Kimmo Kiviluoto,,Provider of social analytic solutions
+Aito Technologies,aito,Past,True,Other,2007-01-03,2007-11-08,Daniel Blomquist,"Anssi Tauriainen, Janne Tanninen",,"Fast, agile decision making"
+Jays,jays,Past,True,Consumer,2006-01-06,2007-07-19,,Jens Nylander,,Leading brand in earphones and audio equipment
+Cint,cint,Past,True,Other,2003-01-08,2007-01-12,Fredrik Cassel,Bo Mattsson,,Global market leader for online survey solutions
+Edgeware,edgeware,Past,True,Other,2006-01-06,2006-01-01,Staffan Helgesson,"Joachim Roos, Kalle Henriksson, Lukas Holm",,Leading technology provider for on-demand TV
+Norstel,norstel,Past,True,Other,2005-01-01,2005-01-01,Staffan Helgesson,"Asko Vehanen, Björn Hansson, Alexandre Ellison",,Silicon Carbide semiconductor wafers
+TrustWeaver,trustweaver,Past,True,SaaS,2001-01-01,2004-01-01,Staffan Helgesson,"Christian van der Valk, Johan Borendal",,Leader in e-signature and time-stamping solutions
