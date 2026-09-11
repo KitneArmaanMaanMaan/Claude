@@ -1,6 +1,6 @@
 # Creandum investment pick — research pack
 
-**The pick: [Frontier Computing](https://frontier.site) (Frontier Computing Ltd, UK) — lead the seed, as a one-or-two-in-forty position.**
+**Status: no defensible pick. Frontier Computing and Poppins were both withdrawn after adversarial diligence — see [`09-audit/`](09-audit/). Squid is the only survivor. Fresh upstream-sourced candidates are in [`10-upstream/`](10-upstream/).**
 Growing living neuronal tissue as an ML training substrate, against an industry that assumes compute is fabricated in a foundry.
 
 📄 **Memo:** https://claude.ai/code/artifact/0b726274-5e83-4c65-8bc0-b3ecbb1995e3
