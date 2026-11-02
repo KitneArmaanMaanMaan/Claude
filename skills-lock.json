@@ -132,6 +132,12 @@
       "sourceType": "github",
       "skillPath": "skills/tech-resume-optimizer/SKILL.md",
       "computedHash": "2e29bf63c6532e5fb233aef21a7f7418a472fc52883995cd0d70544f1ba9b2ed"
+    },
+    "unslop": {
+      "source": "heydamir/unslop",
+      "sourceType": "github",
+      "skillPath": "skills/unslop/SKILL.md",
+      "computedHash": "21a8956dc770712f55dfa61a2d90323cd3d9ef40925f3fc61722b90585fdf153"
     }
   }
 }
